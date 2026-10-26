@@ -48,7 +48,7 @@
       "dns_error": "Home Assistant could not resolve the district hostname. Check DNS on the HA host.",
       "connection_error": "Home Assistant could not connect to or read from the district server. Check network access from HA.",
       "invalid_response": "The server returned an unexpected response instead of the expected API data. Check that the URL ends in /MyStopWebAPI/.",
-      "endpoint_not_found": "The login endpoint returned HTTP 404. For Lake Orion use https://mystop.lok12.org/MyStopWebAPI/",
+      "endpoint_not_found": "The login endpoint returned HTTP 404. Check that the URL ends in /MyStopWebAPI/ (Lake Orion uses mystop.lok12.org/MyStopWebAPI/).",
       "redirect_error": "The API returned a redirect. Verify the API URL; credentials were not forwarded.",
       "rate_limited": "The district API is rate-limiting requests (HTTP 429). Wait before retrying.",
       "server_error": "The district API returned an HTTP 5xx server error. The exact status is in the Home Assistant log.",
