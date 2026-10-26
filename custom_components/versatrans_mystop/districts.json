@@ -1,0 +1,2848 @@
+{
+  "Clients": [
+    {
+      "RecordID": 1242,
+      "Account": "Metropolitan Township of Lawrence",
+      "City": "Indianapolis",
+      "State": "Indiana",
+      "Country": "US",
+      "ServiceUrl": "https://bus.ltschools.org/MyStopWebAPI/",
+      "Serial": "fcbea429-14f6-489d-b4ad-fea13751f3b0"
+    },
+    {
+      "RecordID": 1245,
+      "Account": "Newton County School System",
+      "City": "Covington",
+      "State": "Georgia",
+      "Country": "US",
+      "ServiceUrl": "https://newtoncountydgaweb.tdr.tylerhosting.cloud/newtoncounty/mystopwebapi/",
+      "Serial": "b8ae1878-4613-40a0-b808-9c17be09d4ed"
+    },
+    {
+      "RecordID": 1246,
+      "Account": "Prairie Spirit School Division",
+      "City": "Warman",
+      "State": "SK",
+      "Country": "CA",
+      "ServiceUrl": "https://versatrans.spiritsd.ca/MyStopWebAPI/",
+      "Serial": "a7640bcc-0b2e-4037-9512-e832e8ed55e0"
+    },
+    {
+      "RecordID": 1247,
+      "Account": "Lake Shore Central Schools",
+      "City": "Angola",
+      "State": "New York",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.lakeshorecsd.org/MyStopWebAPI/",
+      "Serial": "b73d29b9-cd40-47d7-b6b8-9b05596a22e2"
+    },
+    {
+      "RecordID": 1251,
+      "Account": "Northwest Community Schools",
+      "City": "Jackson",
+      "State": "Michigan",
+      "Country": "US",
+      "ServiceUrl": "https://trans.nwschools.org/MyStopWebAPI/",
+      "Serial": "00c5252f-c4fb-40da-9443-2b3bcaaea466"
+    },
+    {
+      "RecordID": 1252,
+      "Account": "North Ridgeville City Schools",
+      "City": "North Ridgeville",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/northridgeville/mystopwebapi/",
+      "Serial": "bf334bb9-56f8-4ab3-bb6f-45238f5a94b7"
+    },
+    {
+      "RecordID": 1253,
+      "Account": "Branson School District R4",
+      "City": "Branson",
+      "State": "MO",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.branson.k12.mo.us/mystopwebapi/",
+      "Serial": "cebb1829-584e-480d-b3ae-8f69647a75f0"
+    },
+    {
+      "RecordID": 1254,
+      "Account": "Dougherty County School System",
+      "City": "Albany",
+      "State": "Georgia",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/dougherty/mystopwebapi/",
+      "Serial": "cc6138f3-cb36-4f91-a71a-efd7f17e2f24"
+    },
+    {
+      "RecordID": 1255,
+      "Account": "Austintown Local School District",
+      "City": "Youngstown",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/austintown/mystopwebapi/",
+      "Serial": "b7a64bb1-6516-46c7-96ff-e2c97187de29"
+    },
+    {
+      "RecordID": 1256,
+      "Account": "Griffin-Spalding County School District",
+      "City": "Griffin",
+      "State": "Georgia",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/griffinspalding/mystopwebapi/",
+      "Serial": "a84d9e93-478b-40d1-975c-7a7028ed4238"
+    },
+    {
+      "RecordID": 1258,
+      "Account": "Teays Valley Local School District",
+      "City": "ashville",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/teaysvalley/mystopwebapi/",
+      "Serial": "37c1dad5-58ce-41ca-8d1c-c10b3912168d"
+    },
+    {
+      "RecordID": 1259,
+      "Account": "Baldwinsville Central School District",
+      "City": "Baldwinsville",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/Baldwinsville/mystopwebapi/",
+      "Serial": "08d8efdf-d41c-49ae-95f4-4b74598af0fc"
+    },
+    {
+      "RecordID": 1260,
+      "Account": "Placentia Yorba Linda USD",
+      "City": "Placentia",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "http://transportation.plyusd.org/mystopwebapi/",
+      "Serial": "46cea74e-a8e4-45b9-b44c-bbb6c8f4ea9a"
+    },
+    {
+      "RecordID": 1261,
+      "Account": "Lake Orion Community School District",
+      "City": "Lake Orion",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.lok12.org/MyStopWebAPI/",
+      "Serial": "32fc1664-8521-4825-a60f-d0059483b315"
+    },
+    {
+      "RecordID": 1264,
+      "Account": "Mat-Su Borough School District",
+      "City": "Palmer",
+      "State": "AK",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/matanuskasusitna/mystopwebapi/",
+      "Serial": "867e0fb2-46f1-4772-86e8-dd2f95645022"
+    },
+    {
+      "RecordID": 1265,
+      "Account": "Everett Public Schools",
+      "City": "Everett",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/everett/mystopwebapi/",
+      "Serial": "54872cdb-544f-4aee-9726-78b4e191c5cf"
+    },
+    {
+      "RecordID": 1266,
+      "Account": "Brownsville Independent School District",
+      "City": "Brownsville",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/brownsville/mystopwebapi/",
+      "Serial": "577ba901-f670-46eb-b2bb-c3ef210b49c9"
+    },
+    {
+      "RecordID": 1268,
+      "Account": "Bibb County Public Schools",
+      "City": "Macon",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://bustrans.bcsdk12.net/MyStopWebAPI/",
+      "Serial": "0a56c969-d9c2-47e4-8341-970c5ac0d8b1"
+    },
+    {
+      "RecordID": 1269,
+      "Account": "Allendale Public Schools",
+      "City": "Allendale",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/allendale/mystopwebapi/",
+      "Serial": "f06fb383-6ff5-4dfd-a561-bdca4aba6400"
+    },
+    {
+      "RecordID": 1270,
+      "Account": "Hopkins Independent School District 270",
+      "City": "Hopkins",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans-web.hopkinsschools.org/mystopwebapi/",
+      "Serial": "99de2a25-b408-471d-a4e1-2740a5ac5e7f"
+    },
+    {
+      "RecordID": 1271,
+      "Account": "Fayette County School District",
+      "City": "fayetteville",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/fayetteco/mystopwebapi/",
+      "Serial": "882c7e94-6695-46e3-af16-8dde849ecbae"
+    },
+    {
+      "RecordID": 1276,
+      "Account": "Pekin Municipal Bus",
+      "City": "Pekin",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/pekin/mystopwebapi/",
+      "Serial": "6b68f0ca-d3b2-4e9c-ad92-4bbc40349b8a"
+    },
+    {
+      "RecordID": 1280,
+      "Account": "Williamsville Central School District",
+      "City": "East Amherst",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://transweb.williamsvillek12.org/mystopwebapi/",
+      "Serial": "9cfe76c4-8419-401b-8291-8f1bfbb3119c"
+    },
+    {
+      "RecordID": 1281,
+      "Account": "Eastern Carver County Schools",
+      "City": "Chaska",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.district112.org/MyStopWebAPI/",
+      "Serial": "b9070f72-6ac1-4eb8-9f88-c503001ae11a"
+    },
+    {
+      "RecordID": 1284,
+      "Account": "Calgary Roman Catholic Separate SD No. 1",
+      "City": "Calgary",
+      "State": "AB",
+      "Country": "CA",
+      "ServiceUrl": "https://s096-a2812-01.admin.cssd.ab.ca/mystopwebapi/",
+      "Serial": "28a17f40-70d0-4c2d-837a-e61f1978b7c5"
+    },
+    {
+      "RecordID": 1285,
+      "Account": "Mclean County Unit 5 School District",
+      "City": "Normal",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.unit5.org/mystopwebapi/",
+      "Serial": "60a5c282-40ca-4a38-85b0-c279bba9c068"
+    },
+    {
+      "RecordID": 1287,
+      "Account": "Bemidji Area Schools",
+      "City": "Bemidji",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.bemidji.k12.mn.us/MyStopWebapi/",
+      "Serial": "45752fa6-6bd6-48df-b85a-fa6c687e9aa0"
+    },
+    {
+      "RecordID": 1291,
+      "Account": "Elk Island Public Schools",
+      "City": "Elk Island",
+      "State": "Alberta",
+      "Country": "CA",
+      "ServiceUrl": "https://onscreen.eips.ca/mystopwebapi/",
+      "Serial": "75912590-4f62-47e4-9453-0884809e968e"
+    },
+    {
+      "RecordID": 1292,
+      "Account": "Shawnee Local School District",
+      "City": "Lima",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/shawnee/mystopwebapi/",
+      "Serial": "72dd7b5f-bbb2-4689-af0d-9c0fd843e07b"
+    },
+    {
+      "RecordID": 1294,
+      "Account": "Clarence Central School District",
+      "City": "Clarence",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.clarenceschools.org/MyStopWebAPI/",
+      "Serial": "e4baa013-1252-42ed-8660-b128b3f276dd"
+    },
+    {
+      "RecordID": 1296,
+      "Account": "Beech Grove City Schools",
+      "City": "Beech Grove",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans-web.bgcs.k12.in.us/MyStopWebAPI/",
+      "Serial": "4ed156d7-9f40-4d1e-aac0-b96b2e608530"
+    },
+    {
+      "RecordID": 1297,
+      "Account": "Shenendehowa Central Schools",
+      "City": "Clifton Park",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.shenet.org/mystopwebapi/",
+      "Serial": "baa4cdf5-1146-4656-be2e-f7fe1d1b50eb"
+    },
+    {
+      "RecordID": 1298,
+      "Account": "Jenks public Schools",
+      "City": "Jenks",
+      "State": "Oklahoma",
+      "Country": "US",
+      "ServiceUrl": "http://mystop.jenksps.org/mystopwebapi/",
+      "Serial": "e3948fc6-dc68-448f-ab02-0ff8d0181a01"
+    },
+    {
+      "RecordID": 1299,
+      "Account": "Massillon City School District",
+      "City": "Massillon",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/massillon/MyStopWebAPI/",
+      "Serial": "1bab26df-ab13-40c0-91d8-641f3592ddc0"
+    },
+    {
+      "RecordID": 1300,
+      "Account": "Burnsville-Eagan-Savage School District #191",
+      "City": "Burnsville",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://burnsville.k12transportation.us/mystopwebapi/",
+      "Serial": "3b0f2590-083d-448a-b05c-3f109e96a06f"
+    },
+    {
+      "RecordID": 1301,
+      "Account": "Rosemount-Apple Valley-Eagan School District #196",
+      "City": "Rosemount",
+      "State": "MN",
+      "Country": "us",
+      "ServiceUrl": "https://bus.district196.org/mystopwebapi/",
+      "Serial": "fc9d06b7-4c82-4a18-839e-b5be95d5ae74"
+    },
+    {
+      "RecordID": 1307,
+      "Account": "Lafayette School Corporation",
+      "City": "Lafayette",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://trans.lsc.k12.in.us/mystopwebapi/",
+      "Serial": "d95cd5b3-e367-4b14-a882-4f4d9dc35aa2"
+    },
+    {
+      "RecordID": 1308,
+      "Account": "Robbinsdale Area Schools",
+      "City": "New Hope",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.rdale.org/MyStopWebAPI/",
+      "Serial": "112a250f-f3b9-4926-bb67-decfbe134216"
+    },
+    {
+      "RecordID": 1309,
+      "Account": "Minnetonka Public Schools #276",
+      "City": "Minnetonka",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.minnetonkaschools.org/mystopwebapi/",
+      "Serial": "ea52f48b-a307-42f6-8a5e-a13e5e35573a"
+    },
+    {
+      "RecordID": 1310,
+      "Account": "Stafford County Public Schools",
+      "City": "Stafford",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://scpsbussystem.staffordschools.net/mystopwebapi/",
+      "Serial": "d4f254df-e857-492a-9043-6634731f0186"
+    },
+    {
+      "RecordID": 2310,
+      "Account": "Richmond Public Schools",
+      "City": "Richmond",
+      "State": "Va",
+      "Country": "US",
+      "ServiceUrl": "Https://versatransweb06.tylertech.com/richmondps/MyStopWebAPI/",
+      "Serial": "62501507-2868-442f-b256-48b5b8128ef0"
+    },
+    {
+      "RecordID": 2311,
+      "Account": "Beaverton School District",
+      "City": "Beaverton",
+      "State": "OR ",
+      "Country": "US",
+      "ServiceUrl": "https://transversa.beaverton.k12.or.us/mystopwebapi/",
+      "Serial": "f5189fb0-1bf6-4094-b702-f817f988d2e6"
+    },
+    {
+      "RecordID": 2312,
+      "Account": "Brunswick City Schools",
+      "City": "Brunswick",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.bcsoh.org/mystopwebapi/",
+      "Serial": "215caa4e-0801-4bda-a4c7-4bbf0056aca6"
+    },
+    {
+      "RecordID": 2313,
+      "Account": "Edmonds SD",
+      "City": "Edmonds",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans-web.edmonds.wednet.edu/MyStopWebApi/",
+      "Serial": "c97d3176-6a28-479a-b5f9-5463049ee5ca"
+    },
+    {
+      "RecordID": 2314,
+      "Account": "Chief Leschi Schools",
+      "City": "Puyallup",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.leschischools.org/mystopwebapi/",
+      "Serial": "19deb293-719f-4c28-8929-3238f88537fb"
+    },
+    {
+      "RecordID": 2315,
+      "Account": "Perry Township Schools",
+      "City": "Indianapolis",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/perrytownship/mystopwebapi/",
+      "Serial": "252696e9-cbb0-49c1-98e4-9cfd308c06fd"
+    },
+    {
+      "RecordID": 2316,
+      "Account": "Deptford Township",
+      "City": "Deptford",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.deptford.k12.nj.us/mystopwebapi/",
+      "Serial": "96f9c9b2-6f4f-4fc2-aecd-15441dfa81ce"
+    },
+    {
+      "RecordID": 2317,
+      "Account": "Rockdale County Schools",
+      "City": "Conyers",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://mybus.rockdale.k12.ga.us/mystopwebapi/",
+      "Serial": "6b110d79-96e3-46b3-a8ea-7a67e8b48556"
+    },
+    {
+      "RecordID": 2320,
+      "Account": "MN Charter Schools",
+      "City": "Hastings",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://bus.mystopmonarch.com/mystopwebapi/",
+      "Serial": "8cc64c28-5b85-4689-b6f1-7c4f63070420"
+    },
+    {
+      "RecordID": 3333,
+      "Account": "Renton School District 403",
+      "City": "Renton",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/renton/mystopwebapi/",
+      "Serial": "2859f772-8d72-4412-b6e7-2c5beb3048ac"
+    },
+    {
+      "RecordID": 3335,
+      "Account": "Wayzata Public Schools ISD 284",
+      "City": "Plymouth",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://wayzata.k12transportation.us/mystopwebapi/",
+      "Serial": "9f34dddb-7917-49d6-8420-6df15d9eb820"
+    },
+    {
+      "RecordID": 3338,
+      "Account": "BOSTON PUBLIC SCHOOLS",
+      "City": "Boston",
+      "State": "Ma",
+      "Country": "US",
+      "ServiceUrl": "https://bus.mybps.org/mystopwebapi/",
+      "Serial": "ab710e4e-626c-44e7-b096-27ef52356c49"
+    },
+    {
+      "RecordID": 3339,
+      "Account": "Danbury Public Schools",
+      "City": "Danbury ",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/danbury/mystopwebapi/",
+      "Serial": "80bfd553-a42f-4772-8228-e288f272edd5"
+    },
+    {
+      "RecordID": 3340,
+      "Account": "Cicero School District 99",
+      "City": "Cicero",
+      "State": "il",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/cicero/mystopwebapi/",
+      "Serial": "7e14a3b7-8c5f-46d7-85e4-60fcc86bb9c0"
+    },
+    {
+      "RecordID": 3345,
+      "Account": "Stevens Point Area Public School District",
+      "City": "Stevens Point",
+      "State": "Wisconsin",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/stevenspoint/mystopwebapi/",
+      "Serial": "16cdcd58-8c0f-4026-803c-a0d404fd87c0"
+    },
+    {
+      "RecordID": 3346,
+      "Account": "Issaquah School District",
+      "City": "Issaquah",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/issaquah/mystopwebapi/",
+      "Serial": "7c593e7a-6065-40a0-a5c3-b7e605e46ad1"
+    },
+    {
+      "RecordID": 3347,
+      "Account": "Snohomish School District 201",
+      "City": "Snohomish",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/Snohomish/MyStopWebAPI/",
+      "Serial": "b45271ce-a5a5-43d4-b5b1-196ade2704fb"
+    },
+    {
+      "RecordID": 3349,
+      "Account": "Louis Riel School Division",
+      "City": "Winnipeg",
+      "State": "MB",
+      "Country": "CA",
+      "ServiceUrl": "https://mystop.lrsd.net/MyStopWebAPI/",
+      "Serial": "bb4ff3f3-405b-461a-9d8e-75b585411051"
+    },
+    {
+      "RecordID": 3350,
+      "Account": "Jefferson County Schools",
+      "City": "Kearneysville ",
+      "State": "WV",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.jcswv.org/mystopwebapi/",
+      "Serial": "b965c26f-01a1-4637-ac5e-76234e74ca80"
+    },
+    {
+      "RecordID": 3352,
+      "Account": "STA/Johnston Community School District, IA",
+      "City": "Daniel Island",
+      "State": "SC",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/STAJohnston/mystopwebapi/",
+      "Serial": "00dcc002-b2e6-499f-b256-67d2b5d0e714"
+    },
+    {
+      "RecordID": 3357,
+      "Account": "Lake Local School District",
+      "City": "Uniontown",
+      "State": "OHIO",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/lakelocalsd/mystopwebapi/",
+      "Serial": "2f578306-5c9f-45ab-b289-56572b12c12b"
+    },
+    {
+      "RecordID": 3358,
+      "Account": "Kenmore-Tonawanda Union Free School District",
+      "City": "Buffalo",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.ktufsd.org/MyStopWebAPI/",
+      "Serial": "ac515221-e655-4a90-aadc-013d39d953ae"
+    },
+    {
+      "RecordID": 3359,
+      "Account": "Anchorage School District",
+      "City": "Anchorage",
+      "State": "AK",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.asdk12.org/mystopwebapi/",
+      "Serial": "0490b730-9030-457c-86b1-020aeaac020a"
+    },
+    {
+      "RecordID": 3360,
+      "Account": "South Bend Community School Corporation",
+      "City": "South Bend",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/southbendcsc/mystopwebapi/",
+      "Serial": "53b1210b-2cce-457c-b6db-79bdedd7261b"
+    },
+    {
+      "RecordID": 3361,
+      "Account": "Lancaster Central School District",
+      "City": "Lancaster",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/lancastercentral/mystopwebapi/",
+      "Serial": "53a75e03-b17c-4431-92c0-7d659aadbdd3"
+    },
+    {
+      "RecordID": 3362,
+      "Account": "Maury County Public Schools",
+      "City": "Columbia",
+      "State": "Tennessee",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/maurycounty/mystopwebapi/",
+      "Serial": "e1aa3228-e4f1-4408-a864-0a3b596b6797"
+    },
+    {
+      "RecordID": 3363,
+      "Account": "Duneland School Corporation",
+      "City": "Chesterton",
+      "State": "IN",
+      "Country": "us",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/duneland/mystopwebapi/",
+      "Serial": "f37d961a-973c-4460-a043-5fdab45b1620"
+    },
+    {
+      "RecordID": 3364,
+      "Account": "Forest Hills Public Schools",
+      "City": "Grand Rapids",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.fhps.net/mystopwebapi/",
+      "Serial": "6a8dba3b-c9ea-4c58-a43c-5a9f4ade3b20"
+    },
+    {
+      "RecordID": 3365,
+      "Account": "Guilderland CSD",
+      "City": "Guilderland",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.guilderlandschools.org/mystopwebapi/",
+      "Serial": "28b8b3ae-d008-47ee-abc4-f9c4438c06d4"
+    },
+    {
+      "RecordID": 3366,
+      "Account": "Twin Rivers Unified School District",
+      "City": "McClellen Park",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "https://elink.trusd.net/mystopwebapi/",
+      "Serial": "f6129b45-f314-481e-bc7e-aab920ac3d33"
+    },
+    {
+      "RecordID": 3367,
+      "Account": "Columbus City Schools",
+      "City": "Columbus",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://columbuscity.tylertech.com/mystopwebapi/",
+      "Serial": "ca539c79-222c-448b-b805-682d57c1a341"
+    },
+    {
+      "RecordID": 3369,
+      "Account": "Stillwater Area Public Schools",
+      "City": "Stillwater",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://vt.stillwater.k12.mn.us/mystopwebapi/",
+      "Serial": "1d9bdec6-9953-4c4d-98aa-42cfb607f001"
+    },
+    {
+      "RecordID": 3370,
+      "Account": "Becker Public Schools",
+      "City": "Becker",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://mystopwebapi.becker.k12.mn.us/",
+      "Serial": "d2f4b86c-4b08-4a28-bf84-371f3e78c20b"
+    },
+    {
+      "RecordID": 3371,
+      "Account": "Gull Lake Community Schools",
+      "City": "Richland ",
+      "State": "MI ",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.swmitech.org/mystopwebapi/",
+      "Serial": "df127de0-dc36-4df4-9961-3277fc11e2fa"
+    },
+    {
+      "RecordID": 3373,
+      "Account": "Edison Township Public School District",
+      "City": "Edison",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/EdisonTownship/mystopwebapi/",
+      "Serial": "8fb17e0c-8499-4097-8808-7581c770b99f"
+    },
+    {
+      "RecordID": 3374,
+      "Account": "Grand Island Central School District",
+      "City": "Grand Island",
+      "State": "New York",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/grandisland/mystopwebapi/",
+      "Serial": "674e83ed-dfd5-4632-bfa4-cc880e6a2714"
+    },
+    {
+      "RecordID": 3375,
+      "Account": "Grand Ledge Public Schools",
+      "City": "Grand Ledge",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.glcomets.net/mystopwebapi/",
+      "Serial": "f5f7b86e-824b-4687-92d6-0796f7785818"
+    },
+    {
+      "RecordID": 3376,
+      "Account": "Warren Township High School - Gurnee",
+      "City": "Gurnee",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/warrentownshipgurnee/mystopwebapi/",
+      "Serial": "f64bc64b-5a39-4ad1-9eef-081dfb81ca68"
+    },
+    {
+      "RecordID": 3377,
+      "Account": "Baldwin County Schools",
+      "City": "Milledgeville",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://mybusstop.baldwin.k12.ga.us/mystopwebapi/",
+      "Serial": "bc5bf2e3-a60e-4201-9a12-3519cd5252b8"
+    },
+    {
+      "RecordID": 3378,
+      "Account": "St. Bernard Parish Public Schools",
+      "City": "Chalmette",
+      "State": "LA",
+      "Country": "US",
+      "ServiceUrl": "https://busroutes.sbpsb.org/MyStopWebAPI/",
+      "Serial": "6d9de233-dc5a-4592-b2f9-efbacdac848c"
+    },
+    {
+      "RecordID": 3379,
+      "Account": "Worcester Public Schools",
+      "City": "Worcester",
+      "State": "MA",
+      "Country": "US",
+      "ServiceUrl": "https://busapp.teamonline.org/mystopwebapi/",
+      "Serial": "d5e22d25-bbd1-42c1-a0f6-8ff921f564d7"
+    },
+    {
+      "RecordID": 3380,
+      "Account": "Rapid City Area School District",
+      "City": "Rapid City",
+      "State": "SD",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/rapidcity/mystopwebapi/",
+      "Serial": "dc467f5a-72bf-465c-9a22-3e0275b01afb"
+    },
+    {
+      "RecordID": 3381,
+      "Account": "York County School District",
+      "City": "Yorktown",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.ycsd.york.va.us/mystopwebapi/",
+      "Serial": "93fcf45d-d11e-417a-b4b2-ff62da3a3aad"
+    },
+    {
+      "RecordID": 3382,
+      "Account": "Kyrene School District",
+      "City": "Tempe",
+      "State": "AZ",
+      "Country": "US",
+      "ServiceUrl": "https://vtweb.kyrene.org/mystopwebapi/",
+      "Serial": "df1b6c4b-cb84-415a-af46-31ce3303a0fc"
+    },
+    {
+      "RecordID": 3383,
+      "Account": "La Porte Independent School District",
+      "City": "La Porte",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://bus.lpisd.org/mystopwebapi/",
+      "Serial": "d7e69f69-2905-49ae-b878-7ae0be99a10b"
+    },
+    {
+      "RecordID": 3384,
+      "Account": "McHenry Community Consolidated School District #15 & HSD #156",
+      "City": "McHenry",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/mchenrysd15/MyStopWebAPI/",
+      "Serial": "23777bb7-f939-435d-9681-d56392ac4836"
+    },
+    {
+      "RecordID": 3386,
+      "Account": "St. Mary's County Public Schools",
+      "City": "Leonardtown",
+      "State": "Maryland",
+      "Country": "US",
+      "ServiceUrl": "https://elocator.smcps.org/MyStopWebAPI/",
+      "Serial": "a3ac3917-37ec-4250-8869-81749f7eca93"
+    },
+    {
+      "RecordID": 3387,
+      "Account": "Stamford Public Schools",
+      "City": "Stamford",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://spsbusweb.org/mystopwebapi/",
+      "Serial": "a94fb67f-ef23-4d7e-b8b7-b19f3d771fa4"
+    },
+    {
+      "RecordID": 3388,
+      "Account": "Cherokee County School District",
+      "City": "Canton",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://bus.cherokee.k12.ga.us/mystopwebapi/",
+      "Serial": "75b291d0-6727-414f-a4bc-66c806ed325e"
+    },
+    {
+      "RecordID": 3389,
+      "Account": "Federal Way Public Schools",
+      "City": "Federal Way",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://busstop.fwps.org/mystopwebapi/",
+      "Serial": "721e1142-7160-4b80-bfa4-391681c93738"
+    },
+    {
+      "RecordID": 3391,
+      "Account": "Columbia Heights Public Schools",
+      "City": "Columbia Heights",
+      "State": "Minnesota",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/ColumbiaHeights/MyStopWebAPI/",
+      "Serial": "86c34ce0-43f3-4e8c-87aa-4e91e6a7af85"
+    },
+    {
+      "RecordID": 3392,
+      "Account": "Paw Paw Public School District",
+      "City": "Paw Paw",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.vbisd.org/mystopwebapi-Paw Paw/",
+      "Serial": "817f1015-c303-4a65-a8b4-1cc9d8c979f8"
+    },
+    {
+      "RecordID": 3393,
+      "Account": "Orchard Park Central School District",
+      "City": "Orchard Park",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.opschools.org/mystopwebapi/",
+      "Serial": "846397f4-dfbe-4b7e-b44f-54d52937a669"
+    },
+    {
+      "RecordID": 3394,
+      "Account": "Orono Public Schools",
+      "City": "Long Lake",
+      "State": "Minnesota",
+      "Country": "us",
+      "ServiceUrl": "https://orono.k12transportation.us/mystopwebapi/",
+      "Serial": "3900f484-f17d-4447-a755-415f5acc6c8a"
+    },
+    {
+      "RecordID": 3396,
+      "Account": "Garden City Public School",
+      "City": "Garden City",
+      "State": "KS",
+      "Country": "US",
+      "ServiceUrl": "https://intranet.gckschools.com/MyStopWebAPI/",
+      "Serial": "2b35bc4e-ad56-4dd9-aa77-58e4be402bcd"
+    },
+    {
+      "RecordID": 3397,
+      "Account": "DC Everest",
+      "City": "Weston",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://elink.golamers.com/dceverest/mystopwebapi/",
+      "Serial": "8bdbe383-eaf5-4ff6-b390-adddce282a25"
+    },
+    {
+      "RecordID": 3398,
+      "Account": "Franklin City Schools",
+      "City": "Franklin",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.franklincityschools.com/mystopwebapi/",
+      "Serial": "5700edb6-e593-44a9-8ed6-bd06cd781639"
+    },
+    {
+      "RecordID": 3399,
+      "Account": "Cicero School District #99",
+      "City": "Cicero",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vtweb.tylertech.com/cicero/mystopwebapi/",
+      "Serial": "a0442694-7052-49d0-914e-8e0fd3a13777"
+    },
+    {
+      "RecordID": 3400,
+      "Account": "Spartanburg School District 6",
+      "City": "Roebuck",
+      "State": "SC",
+      "Country": "US",
+      "ServiceUrl": "https://transport.spart6.org/mystopwebapi/",
+      "Serial": "4dc1845b-89d2-47be-bac9-626e497a0b13"
+    },
+    {
+      "RecordID": 3404,
+      "Account": "Community Consolidated School District #15",
+      "City": "Palatine",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vt.ccsd15.net/mystopwebapi/",
+      "Serial": "660027cf-87ec-4f87-9ead-9ee72397e67b"
+    },
+    {
+      "RecordID": 3405,
+      "Account": "Bloomington Public Schools",
+      "City": "Bloomington",
+      "State": "Minnesota",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.bloomington.k12.mn.us/mystopwebapi/",
+      "Serial": "61f71a44-4ba7-4736-8477-181e634f69d2"
+    },
+    {
+      "RecordID": 3406,
+      "Account": "Minnehaha Transportation",
+      "City": "Roseville",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://onestop.minnehahatransport.com/mystopwebapi/",
+      "Serial": "1e3d19c3-e858-4784-903f-5baec1b3077f"
+    },
+    {
+      "RecordID": 3407,
+      "Account": "Springfield Public Schools",
+      "City": "Springfield",
+      "State": "MA",
+      "Country": "US",
+      "ServiceUrl": "https://bus.springfieldpublicschools.com/mystopwebapi/",
+      "Serial": "f4047618-cf1b-470a-a733-24cc4e3a52c0"
+    },
+    {
+      "RecordID": 3408,
+      "Account": "Fond Du Lac School District",
+      "City": "Fond Du Lac",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/JohnsonSBSFonddulac/mystopwebapi/",
+      "Serial": "1cfe463f-1e7e-4c8b-9107-616a7a216b0c"
+    },
+    {
+      "RecordID": 3409,
+      "Account": "Athens City  School District",
+      "City": "Athens",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/athenscity/mystopwebapi/",
+      "Serial": "d22a0db9-d32b-4841-915e-aa1f242c76bf"
+    },
+    {
+      "RecordID": 3414,
+      "Account": "Bend-La Pine Schools",
+      "City": "Bend",
+      "State": "OR",
+      "Country": "US",
+      "ServiceUrl": "https://mystopwebapi.bend.k12.or.us/",
+      "Serial": "76a7f11a-e987-4175-8bf5-25acb1e7b1a2"
+    },
+    {
+      "RecordID": 3416,
+      "Account": "Worthington City Schools",
+      "City": "Columbus",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.worthington-portal.org/mystopwebapi/",
+      "Serial": "b786bcb8-d75e-4666-87e4-ca8e98c4b781"
+    },
+    {
+      "RecordID": 3417,
+      "Account": "Flushing Community Schools",
+      "City": "Flushing",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.flushingschools.org/mystopwebapi/",
+      "Serial": "23d613ed-c923-425b-b8bd-8cdc33629009"
+    },
+    {
+      "RecordID": 3419,
+      "Account": "Broken Arrow Public Schools",
+      "City": "Broken Arrow",
+      "State": "OK",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/brokenarrow/mystopwebapi/",
+      "Serial": "6388ad15-21da-4102-8ad6-e7d35b13e792"
+    },
+    {
+      "RecordID": 3420,
+      "Account": "Central District 51",
+      "City": "Washington",
+      "State": "Illinois",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.central51.net/mystopwebapi/",
+      "Serial": "ac4407d0-8d72-42b1-9da4-adc03a2ba71d"
+    },
+    {
+      "RecordID": 3429,
+      "Account": "Indian Prairie School District 204",
+      "City": "Aurora",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.ipsd.org/Mystopwebapi/",
+      "Serial": "6c87b196-6cfc-4eef-bb54-8cd49bdb90a2"
+    },
+    {
+      "RecordID": 3430,
+      "Account": "Northshore School District 112",
+      "City": "Highland Park",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/northshore/mystopwebapi/",
+      "Serial": "489844d2-f52f-434a-a924-27dfcf7cffbb"
+    },
+    {
+      "RecordID": 3432,
+      "Account": "Green Bay Area Public School District",
+      "City": "Green Bay",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/greenbay/mystopwebapi/",
+      "Serial": "309fda27-4899-4677-b3e1-7daf5c6b7cdc"
+    },
+    {
+      "RecordID": 3441,
+      "Account": "Durango School District",
+      "City": "Durango",
+      "State": "CO",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/durango/mystopwebapi/",
+      "Serial": "2c47b910-7ff6-4a56-9145-c815a4b25c31"
+    },
+    {
+      "RecordID": 3442,
+      "Account": "Belton Independent School District",
+      "City": "Belton",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.bisd.net/MyStopWebAPI/",
+      "Serial": "d7867795-b0e7-4f28-ba4d-5436c806f68a"
+    },
+    {
+      "RecordID": 3446,
+      "Account": "Chesterfield County Public Schools",
+      "City": "chesterfield",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://web6.versatrans.tylerapp.com/chesterfield/mystopwebapi/",
+      "Serial": "0b1dc562-25c9-4876-a2c8-06e9599f2621"
+    },
+    {
+      "RecordID": 3447,
+      "Account": "Lebanon Community School Corporation",
+      "City": "Lebanon",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.leb.k12.in.us/mystopwebapi/",
+      "Serial": "0e38b3cf-c7d0-4202-ba29-fb7054d27a5b"
+    },
+    {
+      "RecordID": 3450,
+      "Account": "King George County Public Schools",
+      "City": "king george",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/kinggeorge/mystopwebapi/",
+      "Serial": "45b2be20-9a6e-43ab-8c4f-429ba5572efe"
+    },
+    {
+      "RecordID": 3451,
+      "Account": "Jurupa Unified School District",
+      "City": "Jurupa Valley",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "https://mybus.jusd.k12.ca.us/mystopwebapi/",
+      "Serial": "14bd7ae2-3a99-44ea-9444-07decaca7790"
+    },
+    {
+      "RecordID": 3452,
+      "Account": "Livingston Educational Service Agency",
+      "City": "Howell",
+      "State": "MI ",
+      "Country": "US",
+      "ServiceUrl": "https://lesa-vtserv03.livingstonesa.org/MyStopWebAPI/",
+      "Serial": "50539f10-a317-47b5-97eb-e97ee810c88a"
+    },
+    {
+      "RecordID": 3453,
+      "Account": "Spring Lake Park Schools",
+      "City": "Spring Lake Park",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/springlake/MyStopWebAPI/",
+      "Serial": "228efb5d-0653-4812-a830-f0e50077812b"
+    },
+    {
+      "RecordID": 3454,
+      "Account": "Hamburg Central Schools",
+      "City": "Hamburg",
+      "State": "New York",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.hamburgschools.org/mystopwebapi/",
+      "Serial": "9e687894-d77f-4f15-81c9-dbeba44bf2c5"
+    },
+    {
+      "RecordID": 3455,
+      "Account": "Lakewood Public School District",
+      "City": "Lake Odessa",
+      "State": "MI",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/lakewoodpsd/mystopwebapi/",
+      "Serial": "61279237-4433-499a-b64f-c6eda98be2e8"
+    },
+    {
+      "RecordID": 3456,
+      "Account": "Riteway Bus Service Inc.",
+      "City": "Richfield",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://vtweb2.tylertech.com/riteway/mystopwebapi/",
+      "Serial": "56d8e735-3ef6-419f-90a1-eba1f60ab4d4"
+    },
+    {
+      "RecordID": 3457,
+      "Account": "Dallas Independent School District",
+      "City": "Dallas",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/DallasISD/MyStopWebAPI/",
+      "Serial": "baccf312-9ce1-463e-87fe-a2f4736b8eb9"
+    },
+    {
+      "RecordID": 3459,
+      "Account": "Fountain-Fort Carson School District 8",
+      "City": "Fountain",
+      "State": "CO",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/fountainfortcarson/mystopwebapi/",
+      "Serial": "2a9f029e-099a-4ea0-9181-0d1a7b2a7f5f"
+    },
+    {
+      "RecordID": 3460,
+      "Account": "Kenosha Unified School District",
+      "City": "Kenosha",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.kusd.edu/onscreen/MyStop/LoginMobile.aspx/",
+      "Serial": "b765896d-1625-47c9-85f2-789f463c9fe5"
+    },
+    {
+      "RecordID": 3461,
+      "Account": "VST-Demo",
+      "City": "Latham",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/Demonstration/MyStopWebAPI/",
+      "Serial": "2ff2bd5c-5d59-4a48-bffd-6054ffce2785"
+    },
+    {
+      "RecordID": 3463,
+      "Account": "South Brunswick Public Schools",
+      "City": "Monmouth Jct",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/southbrunswick/mystopwebapi/",
+      "Serial": "1f236eda-4c7d-443a-aba1-530b888b3b4d"
+    },
+    {
+      "RecordID": 3464,
+      "Account": "Parkland School Division",
+      "City": "Stony Plain",
+      "State": "AB",
+      "Country": "CA",
+      "ServiceUrl": "https://transportation.psd.ca/mystopwebapi/",
+      "Serial": "82ee06dc-7cfa-4188-b2c3-bb211f22c191"
+    },
+    {
+      "RecordID": 3465,
+      "Account": "Jackson Local School District",
+      "City": "Massillon",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://bus.jackson.sparcc.org/mystopwebapi/",
+      "Serial": "8a0b286a-7edb-417c-aa48-3e9a78387a77"
+    },
+    {
+      "RecordID": 3466,
+      "Account": "Plainfield School District",
+      "City": "Plainfield",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/plainfield/mystopwebapi/",
+      "Serial": "7f278066-5b0f-46cd-9140-50ab2f32c97d"
+    },
+    {
+      "RecordID": 3472,
+      "Account": "Shawnee Public Schools",
+      "City": "Shawnee",
+      "State": "OK",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.shawnee.k12.ok.us/mystopwebapi/",
+      "Serial": "cc9e8000-52b9-4c5e-baae-9239c843894c"
+    },
+    {
+      "RecordID": 3475,
+      "Account": "Oak Ridge Schools",
+      "City": "Oak Ridge",
+      "State": "TN",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.ortn.edu/MyStopWebAPI/",
+      "Serial": "6f108902-c008-4515-a95e-b36131ad32d8"
+    },
+    {
+      "RecordID": 3476,
+      "Account": "Consolidated School District of New Britain",
+      "City": "New Britain",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/consolidatedsdnewbritain/mystopwebapi/",
+      "Serial": "d1e10634-4c1d-46a6-8014-a78049480b2c"
+    },
+    {
+      "RecordID": 3477,
+      "Account": "Catoosa County School District",
+      "City": "Ringgold",
+      "State": "GA",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb10.tylertech.com/catoosacounty/mystopwebapi/",
+      "Serial": "f6660354-b1eb-466c-9d9a-5c6b0b1c83d3"
+    },
+    {
+      "RecordID": 3478,
+      "Account": "Glastonbury Public Schools",
+      "City": "Hartford",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/glastonbury/mystopwebapi/",
+      "Serial": "67dd4d26-c5ef-4130-819b-ad344ef91af0"
+    },
+    {
+      "RecordID": 3486,
+      "Account": "Warsaw Community Schools",
+      "City": "Warsaw",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/warsaw/mystopwebapi/",
+      "Serial": "83994bf5-8e36-4f3c-aa1a-0daa92005aa3"
+    },
+    {
+      "RecordID": 3487,
+      "Account": "Moreno Valley Unified School District",
+      "City": "Moreno Valley",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.mvusd.net/mystopwebapi/",
+      "Serial": "8c90e4c7-3ac9-4990-af43-b5252ae37801"
+    },
+    {
+      "RecordID": 3488,
+      "Account": "Dubuque Community School District",
+      "City": "Dubuque",
+      "State": "IA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/dubuque/mystopwebapi/",
+      "Serial": "9ebc4f66-2f98-406a-aede-3b6a96f15b73"
+    },
+    {
+      "RecordID": 3490,
+      "Account": "Saratoga Springs City School District",
+      "City": "Saratoga Springs",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/saratogasprings/mystopwebapi/",
+      "Serial": "f0b3188b-87c1-4117-81b0-0c827562ed90"
+    },
+    {
+      "RecordID": 3491,
+      "Account": "Iroquois Central School District",
+      "City": "Elma",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://bus.iroquoiscsd.org/MyStopWebAPI/",
+      "Serial": "2a4ade52-10f0-4ac8-8686-4c74de816c31"
+    },
+    {
+      "RecordID": 3492,
+      "Account": "Eden Central Schools",
+      "City": "Eden",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://gps.edencsd.org/MyStopWebAPI/",
+      "Serial": "5d1dcdc9-7a09-4ead-a47f-d4d9a73be371"
+    },
+    {
+      "RecordID": 3493,
+      "Account": "Tuscaloosa City School District",
+      "City": "Tuscaloosa",
+      "State": "AL",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.tuscaloosacityschools.com/mystopwebapi/",
+      "Serial": "cfccf899-8381-4940-9e6c-45b453c1a164"
+    },
+    {
+      "RecordID": 3494,
+      "Account": "Cincinnati Public Schools",
+      "City": "Cincinnati",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://elink.cps-k12.org/MyStopWebAPI/",
+      "Serial": "5a20d4ea-db00-47e5-9bf4-fcea1ad420d9"
+    },
+    {
+      "RecordID": 3495,
+      "Account": "Kankakee District 111",
+      "City": "Kankakee",
+      "State": "IL",
+      "Country": "us",
+      "ServiceUrl": "https://vtweb.illinois-central.com/MyStopWebAPI_Kankakee/",
+      "Serial": "5482bb4d-5346-443c-bb7c-0fd4bfe4eb9f"
+    },
+    {
+      "RecordID": 3496,
+      "Account": "Palatine Township High School District 211",
+      "City": "Palatine",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/palatine211/mystopwebapi/",
+      "Serial": "1dcf36b7-a94a-4bc2-af3d-555915c45617"
+    },
+    {
+      "RecordID": 3499,
+      "Account": "Perrysburg Exempted Village School District",
+      "City": "Perrysburg",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/perrysburg/MyStopWebAPI/",
+      "Serial": "ca4732c0-4a20-4039-881d-84179e650b37"
+    },
+    {
+      "RecordID": 3500,
+      "Account": "West Genesee Central School District",
+      "City": "Camillus",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://cloud.westgenesee.org/MyStopWebAPI/",
+      "Serial": "69961ea9-ad2c-4fce-b540-dd192fe93895"
+    },
+    {
+      "RecordID": 3504,
+      "Account": "Northwest Local School District",
+      "City": "Cincinnati",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://trans2.nwlsd.org/mystopwebapi/",
+      "Serial": "7f633734-24b7-4fc4-aed0-63d193db1f78"
+    },
+    {
+      "RecordID": 3505,
+      "Account": "Crosby Independent School District",
+      "City": "Crosby",
+      "State": "Texas",
+      "Country": "US",
+      "ServiceUrl": "https://VERSATRANS.CROSBYISD.ORG/mystopwebapi/",
+      "Serial": "580dce00-3887-45e3-b606-b1611fe27def"
+    },
+    {
+      "RecordID": 3512,
+      "Account": "Brownsburg Community School Corporation",
+      "City": "Brownsburg",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/brownsburg/MyStopWebAPI/",
+      "Serial": "40c6ea8c-b184-4974-b0dc-b11d4faf8ba8"
+    },
+    {
+      "RecordID": 3513,
+      "Account": "Portland School District 1J",
+      "City": "Portland",
+      "State": "OR",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/portland1j/mystopwebapi/",
+      "Serial": "ccf3b945-5c8d-4b03-ae53-5b149a6edc03"
+    },
+    {
+      "RecordID": 3514,
+      "Account": "Tooele County School District",
+      "City": "Tooele",
+      "State": "UT",
+      "Country": "US",
+      "ServiceUrl": "https://vtr.tcsd.tooelesd.org/mystopwebapi/",
+      "Serial": "77f20812-c46c-42fc-8c01-78dd775ba77e"
+    },
+    {
+      "RecordID": 3515,
+      "Account": "Howell Public Schools",
+      "City": "Howell",
+      "State": "Michigan",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/livingstonhowell/MyStopWebAPI/",
+      "Serial": "dbb5baec-28c4-4405-922d-ebd5505ab35d"
+    },
+    {
+      "RecordID": 3516,
+      "Account": "Beaufort County School district",
+      "City": "Beaufort",
+      "State": "SC",
+      "Country": "US",
+      "ServiceUrl": "https://bcsdbusroute.beaufort.k12.sc.us/MyStopWebAPI/",
+      "Serial": "cbb68c60-2c6f-4aab-9185-7b33c9fa6f4f"
+    },
+    {
+      "RecordID": 3517,
+      "Account": "Lake Washington School District",
+      "City": "Redmond",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://busroutes.lwsd.org/MyStopWebAPI/",
+      "Serial": "fe854209-d009-4d7a-920f-1b8c80e2043a"
+    },
+    {
+      "RecordID": 3518,
+      "Account": "Canton City School District",
+      "City": "Canton",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://drive.ccsdistrict.org/MyStopWebAPI/",
+      "Serial": "bce667a2-f72f-4e4b-852b-543ee2ebe16e"
+    },
+    {
+      "RecordID": 3520,
+      "Account": "Olentangy Local School District",
+      "City": "Lewis Center",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.olsd.us/MyStopWebAPI/",
+      "Serial": "352d8274-20f8-4737-a6b0-2e72cad85dfd"
+    },
+    {
+      "RecordID": 3521,
+      "Account": "Richland School District 400",
+      "City": "Richland",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://rsdelink.rsd.edu/MyStopWebAPI/",
+      "Serial": "dddcd5ca-d8fb-4161-823d-eec709c634f0"
+    },
+    {
+      "RecordID": 3522,
+      "Account": "Reynolds School District 7",
+      "City": "Fairview",
+      "State": "OR",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/reynoldssd7/mystopwebapi/",
+      "Serial": "4f72034a-3102-47f5-9eba-91ffdeb3a981"
+    },
+    {
+      "RecordID": 3523,
+      "Account": "Plain Local School District",
+      "City": "Canton",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.plainlocal.org/mystopwebapi/",
+      "Serial": "c0504e5c-ac16-4522-8abf-6bd96dbd5b6b"
+    },
+    {
+      "RecordID": 3524,
+      "Account": "Calvert County Public School District",
+      "City": "Prince Frederick",
+      "State": "MD",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/calvert/mystopwebapi/",
+      "Serial": "00292469-4d72-49d5-9077-79e64052f621"
+    },
+    {
+      "RecordID": 3525,
+      "Account": "Waukegan Public Schools",
+      "City": "Waukegan",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vto.wps60.org/MyStopWebAPI/",
+      "Serial": "65ceb51f-5b54-42b7-bebe-b3b402702278"
+    },
+    {
+      "RecordID": 3526,
+      "Account": "Peoria School District #150",
+      "City": "Peoria",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.psd150.org/MyStopWebAPI/",
+      "Serial": "c242045b-c8b6-45ce-86dc-6af1489f32bf"
+    },
+    {
+      "RecordID": 3527,
+      "Account": "Green Local School District",
+      "City": "Uniontown",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/GreenLocal/mystopwebapi/",
+      "Serial": "bc2127c2-aec5-4892-a5ff-81ad1fe4933e"
+    },
+    {
+      "RecordID": 3528,
+      "Account": "Woodland Community Consolidated School District 50",
+      "City": "Gurnee",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/woodland/mystopwebapi/",
+      "Serial": "d79095d6-1378-4a17-8d8c-98b1127be769"
+    },
+    {
+      "RecordID": 3529,
+      "Account": "Midlothian Independent School District",
+      "City": "midlothian",
+      "State": "tx",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/midlothian/mystopwebapi/",
+      "Serial": "b281f0c7-8d59-4537-89f3-3e243862513a"
+    },
+    {
+      "RecordID": 3532,
+      "Account": "Polk County Public Schools",
+      "City": "Bartow",
+      "State": "FL",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.polk-fl.net/mystopwebapi/",
+      "Serial": "295a6c4e-f4f8-4b32-9de6-1ab5d7ae2c33"
+    },
+    {
+      "RecordID": 3533,
+      "Account": "RSU 57",
+      "City": "Waterboro",
+      "State": "ME",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/rsu57/mystopwebapi/",
+      "Serial": "61da9d96-d57b-4f82-a4ab-81513e275c32"
+    },
+    {
+      "RecordID": 3534,
+      "Account": "Washington Elementary School District #6",
+      "City": "Glendale",
+      "State": "Arizona",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.wesdschools.org/MyStopWebAPI/",
+      "Serial": "299cd1d6-33d7-4685-82a4-4b5679ca56fd"
+    },
+    {
+      "RecordID": 3535,
+      "Account": "Illinois School District U-46",
+      "City": "Elgin",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.u-46.org/MyStopWebAPI/",
+      "Serial": "66b25e2a-b6e5-4ab4-b233-b211668a0555"
+    },
+    {
+      "RecordID": 3536,
+      "Account": "Inver Grove Heights School District #199",
+      "City": "Inver Grove Heights",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/InverGrove/MyStopWebAPI/",
+      "Serial": "d01f32de-b653-44ce-9810-86a8feac1989"
+    },
+    {
+      "RecordID": 3537,
+      "Account": "Marlington Local Schools",
+      "City": "Alliance",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/marlington/mystopwebapi/",
+      "Serial": "7b0bda81-c34c-4062-ad57-3ac4f3e0e135"
+    },
+    {
+      "RecordID": 3538,
+      "Account": "Frontier Central School District",
+      "City": "Hamburg",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/frontier/mystopwebapi/",
+      "Serial": "40d41250-0727-4904-9763-b33adab3229a"
+    },
+    {
+      "RecordID": 3539,
+      "Account": "Middlebury Community Schools",
+      "City": "Middlebury",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://transpo.mcsin-k12.org/mystopwebapi/",
+      "Serial": "4a0993c9-8f5c-466a-be29-d0117468e438"
+    },
+    {
+      "RecordID": 3540,
+      "Account": "Mitchell County School System",
+      "City": "Camilla",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.mitchell.k12.ga.us/MyStopWebAPI/",
+      "Serial": "67f26ee4-354c-4010-9748-4f5f9d225143"
+    },
+    {
+      "RecordID": 3541,
+      "Account": "Monroe-Woodbury Central Schools",
+      "City": "Monroe",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/monroewoodbury/mystopwebapi/",
+      "Serial": "b83923dc-8be1-4f8b-839d-94704f58cf18"
+    },
+    {
+      "RecordID": 3542,
+      "Account": "Montgomery County Public Schools",
+      "City": "Christiansburg",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.montgomery.k12.va.us/mystopwebapi/",
+      "Serial": "11c32fd3-2349-402b-b2e5-b60d40dba76a"
+    },
+    {
+      "RecordID": 3543,
+      "Account": "Monroe County School District",
+      "City": "Forsyth",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/monroe/mystopwebapi/",
+      "Serial": "b50b935f-2f4a-4614-ae7c-9f1fc6e25937"
+    },
+    {
+      "RecordID": 3544,
+      "Account": "Edinburg Consolidated Independent School District",
+      "City": "Edinburg",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/edinburg/mystopwebapi/",
+      "Serial": "b9d64445-a5cd-43ec-aed2-59b30c92b658"
+    },
+    {
+      "RecordID": 3545,
+      "Account": "Aspen View Public Schools",
+      "City": "Athabasca",
+      "State": "Alberta",
+      "Country": "CA",
+      "ServiceUrl": "https://elink.aspenview.org/MyStop/",
+      "Serial": "73f3da69-c1c5-4cb8-8cba-0abaf1103f83"
+    },
+    {
+      "RecordID": 3548,
+      "Account": "Farmington Public Schools",
+      "City": "Farmington",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/Farmington/MyStopWebAPI/",
+      "Serial": "d6d8f4a2-5dc1-46f8-ab84-eeee7d3eb343"
+    },
+    {
+      "RecordID": 3549,
+      "Account": "Crandall ISD",
+      "City": "Crandall",
+      "State": "Texas",
+      "Country": "US",
+      "ServiceUrl": "https://crandallisdbus.com/MyStopWebAPI/",
+      "Serial": "cc2a0d21-e2ee-4160-8b26-4eb8b372ac61"
+    },
+    {
+      "RecordID": 3550,
+      "Account": "Baldwin-Whitehall School District",
+      "City": "Pittsburgh",
+      "State": "PA",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.bwschools.net/mystopwebapi/",
+      "Serial": "b4c7d0e9-f97f-45b5-8907-ff1bf4f94f78"
+    },
+    {
+      "RecordID": 3551,
+      "Account": "Dinwiddie County Public Schools",
+      "City": "Dinwiddie",
+      "State": "VA.",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.dcpsnet.org/MyStopWebAPI/",
+      "Serial": "20823926-c059-4b13-b8bc-6a70575923e1"
+    },
+    {
+      "RecordID": 3552,
+      "Account": "Foley Public Schools",
+      "City": "Foley",
+      "State": "Minnesota ",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.foley.k12.mn.us/MyStopWebAPI/",
+      "Serial": "30a08a4d-1d7f-4d5f-a5f8-337f68482ff9"
+    },
+    {
+      "RecordID": 3553,
+      "Account": "Owego Apalachin Central School District",
+      "City": "Owego",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://vtweb.oacsd.org/mystopwebapi/",
+      "Serial": "dff55753-e559-407b-a751-541ba3568da4"
+    },
+    {
+      "RecordID": 3554,
+      "Account": "Dayton Public Schools",
+      "City": "Dayton",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.daytonpublic.com/MyStopWebAPI/",
+      "Serial": "bd294517-b3dc-46ba-856f-da1b1c31e49d"
+    },
+    {
+      "RecordID": 3555,
+      "Account": "Mooresville Consolidated School Corporation",
+      "City": "Mooresville",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.mooresvilleschools.org/mystopwebapi/",
+      "Serial": "fc9877b9-9716-4fe6-a3d0-20595c9666dc"
+    },
+    {
+      "RecordID": 3556,
+      "Account": "Rock Hill School District 3",
+      "City": "Rock Hill",
+      "State": "SC",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb10.tylertech.com/rockhillsd3/mystopwebapi/",
+      "Serial": "67d27883-46d7-4cb2-a607-b84fdb909b93"
+    },
+    {
+      "RecordID": 3557,
+      "Account": "Channelview Independent School District",
+      "City": "Channelview",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/channelviewisd/mystopwebapi/",
+      "Serial": "29bdf7b6-3fd3-4b1c-b00b-6175616a3cd3"
+    },
+    {
+      "RecordID": 3558,
+      "Account": "St Louis Park Schools",
+      "City": "St Louis Park",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://stlp.k12transportation.us/mystopwebapi/",
+      "Serial": "ef854d86-e2fc-489d-9487-b8b20b5a1218"
+    },
+    {
+      "RecordID": 3559,
+      "Account": "Ardsley Union Free School District",
+      "City": "Ardsley",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/ardsley/mystopwebapi/",
+      "Serial": "eeac77a1-6f4e-4c8f-af45-1a920c9fddbe"
+    },
+    {
+      "RecordID": 3560,
+      "Account": "St. Paul Public Schools",
+      "City": "St. Paul",
+      "State": "Mn",
+      "Country": "US",
+      "ServiceUrl": "https://www.isd625trans.org/mystopwebapi/",
+      "Serial": "6f62b2d2-7f65-4b61-873a-5b2eaf3855ca"
+    },
+    {
+      "RecordID": 3561,
+      "Account": "Indian Hill Exempted Village School District",
+      "City": "Cincinnati",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://ih-onscreen.ih.k12.oh.us/mystopwebapi/",
+      "Serial": "c7443292-9e41-4a26-8ac0-d9af27ee7218"
+    },
+    {
+      "RecordID": 3562,
+      "Account": "Socorro ISD",
+      "City": "El Paso",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://schoolbus.sisd.net/MyStopWebAPI/",
+      "Serial": "65648f1c-fd7a-4898-91f5-d66794f88442"
+    },
+    {
+      "RecordID": 3563,
+      "Account": "Northshore School District",
+      "City": "Bothell",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.nsd.org/mystopwebapi/",
+      "Serial": "7f80bce8-54a0-48f9-9bf4-8ae8d4cacc8f"
+    },
+    {
+      "RecordID": 3564,
+      "Account": "Pickerington Local School District",
+      "City": "Pickerington",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/pickerington/mystopwebapi/",
+      "Serial": "c38386f4-ba7b-4ac9-ac08-20d0eb445f77"
+    },
+    {
+      "RecordID": 3565,
+      "Account": "Aurora City School District",
+      "City": "Aurora",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/aurora/mystopwebapi/",
+      "Serial": "4f246826-4478-4fb2-b5ee-e906697ae917"
+    },
+    {
+      "RecordID": 3566,
+      "Account": "Monroe School District 103",
+      "City": "Monroe",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.monroe.wednet.edu/MyStopWebAPI/",
+      "Serial": "a9b00b48-17e9-4fc3-ba75-1b554c28e2e1"
+    },
+    {
+      "RecordID": 3567,
+      "Account": "Magnolia ISD",
+      "City": "Magnolia",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.magnoliaisd.org/MyStopWebAPI/",
+      "Serial": "b01fc5a5-92f4-4abc-ba7f-a3136887c374"
+    },
+    {
+      "RecordID": 3568,
+      "Account": "Gilbert Public Schools",
+      "City": "Gilbert",
+      "State": "AZ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/gilbert/mystopwebapi/",
+      "Serial": "92e56c8c-8de0-493f-9276-0b190e8d90b5"
+    },
+    {
+      "RecordID": 3569,
+      "Account": "Howard County Public School District",
+      "City": "Ellicott City",
+      "State": "MD",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/howardcounty/mystopwebapi/",
+      "Serial": "93f3db22-ab83-42d9-a415-30d90eb92fd4"
+    },
+    {
+      "RecordID": 3572,
+      "Account": "Marshall ISD",
+      "City": "Marshall",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.marshallisd.com/MyStopWebAPI/",
+      "Serial": "26859f6a-68eb-4e37-ac26-fc51df5c722a"
+    },
+    {
+      "RecordID": 3573,
+      "Account": "Eden Prairie Independent School District #272",
+      "City": "Eden Prairie",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/EdenPrairie/MyStopWebAPI/",
+      "Serial": "d1d805bd-9478-486e-9449-43e321437406"
+    },
+    {
+      "RecordID": 3574,
+      "Account": "Mukilteo School District 6",
+      "City": "Everett",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://busroutes.mukilteo.wednet.edu/MyStopWebAPI/",
+      "Serial": "2ea28737-4d17-4458-8adf-c84d64439a71"
+    },
+    {
+      "RecordID": 3576,
+      "Account": "Kalamazoo Public Schools",
+      "City": "Kalamazoo",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.swmitech.org/mystopwebapi-kps/",
+      "Serial": "1f2cab38-6d68-4f83-85e3-efc2df0f7c24"
+    },
+    {
+      "RecordID": 3577,
+      "Account": "Plainfield Community School Corportation",
+      "City": "Plainfield",
+      "State": "Indiana",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/PlainfieldCSC/MyStopWebAPI/",
+      "Serial": "f6c32024-862a-4339-9cc3-6afd24d6b620"
+    },
+    {
+      "RecordID": 3578,
+      "Account": "Avon Community School Corporation",
+      "City": "Avon",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/Avoncsc/MyStopWebAPI/",
+      "Serial": "01420f45-807a-4711-bf66-8a30f6b3f774"
+    },
+    {
+      "RecordID": 3582,
+      "Account": "Tyler Independent School District",
+      "City": "Tyler",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.tylerisd.org/MyStopWebAPI/",
+      "Serial": "28d5e985-bb31-46f0-a9af-fa7aaadcf3f8"
+    },
+    {
+      "RecordID": 3583,
+      "Account": "Tolleson Union High School District",
+      "City": "Tolleson",
+      "State": "AZ",
+      "Country": "US",
+      "ServiceUrl": "https://triptracker.tuhsd.org/MyStopWebAPI/",
+      "Serial": "81c84e48-650f-4255-8d78-00c88b430388"
+    },
+    {
+      "RecordID": 3584,
+      "Account": "Alachua County Public Schools",
+      "City": "Gainesville",
+      "State": "FL",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/Alachua/MyStopWebAPI/",
+      "Serial": "967901ef-1b1d-4893-b561-3e5dc919697d"
+    },
+    {
+      "RecordID": 3585,
+      "Account": "San Benito CISD",
+      "City": "San Benito",
+      "State": "Texas",
+      "Country": "US",
+      "ServiceUrl": "https://routing.sbcisd.net/mystopwebapi/",
+      "Serial": "1c2ad34d-cf38-4882-adee-9f249755ab20"
+    },
+    {
+      "RecordID": 3586,
+      "Account": "Sturgeon Public Schools",
+      "City": "Morinville",
+      "State": "AB",
+      "Country": "CA",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/sturgeon/mystopwebapi/",
+      "Serial": "74907dae-bfbc-4cd2-bd0a-63cc5ef6c4a4"
+    },
+    {
+      "RecordID": 3587,
+      "Account": "Whitley County Consolidated Schools",
+      "City": "Columbia City",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.wccsonline.com/MyStopWebAPI/",
+      "Serial": "83331b71-cd77-45ad-99ac-f3333a4dad3e"
+    },
+    {
+      "RecordID": 3594,
+      "Account": "Portage Township Schools",
+      "City": "Portage",
+      "State": "IN",
+      "Country": "us",
+      "ServiceUrl": "https://transportation.portage.k12.in.us/mystopwebapi/",
+      "Serial": "215632f7-6ee6-4e5e-9e9c-9fe1a1133ff8"
+    },
+    {
+      "RecordID": 3595,
+      "Account": "Aledo Independent School District",
+      "City": "Aledo",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/aledoisd/MyStopWebAPI/",
+      "Serial": "14d1c76d-697d-430a-9ae9-2a15435c9e05"
+    },
+    {
+      "RecordID": 3596,
+      "Account": "AST Minnesota Charter",
+      "City": "maple grove",
+      "State": "MN",
+      "Country": "us",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/americanstudenttransminnesotacharter/mystopwebapi/",
+      "Serial": "81b6f3bf-573c-48d7-a6ec-548244931a24"
+    },
+    {
+      "RecordID": 3597,
+      "Account": "Fowler Elementary School District 45",
+      "City": "Pheonix",
+      "State": "AZ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/FowlerElem/MyStopWebAPI/",
+      "Serial": "ccae467e-0a37-46ea-96e8-acadf7efca41"
+    },
+    {
+      "RecordID": 3599,
+      "Account": "Pequot Lakes Public Schools ISD 186",
+      "City": "Pequot Lakes",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/PequotLakesISD/MyStopWebAPI/",
+      "Serial": "9bd9b9a8-b056-4287-98fb-96e9ae9a0722"
+    },
+    {
+      "RecordID": 3600,
+      "Account": "Beavercreek City Schools",
+      "City": "Beavercreek",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://elink.beavercreek.k12.oh.us/MyStopWebAPI/",
+      "Serial": "c341ce52-f93b-45f4-ae3f-87ab058d0864"
+    },
+    {
+      "RecordID": 3601,
+      "Account": "North Kansas City Schools",
+      "City": "Kansas City",
+      "State": "MO",
+      "Country": "US",
+      "ServiceUrl": "https://nkc-versatrans.nkcschools.org/MyStopWebAPI/",
+      "Serial": "9ae9680d-f9cf-47d3-8ce3-3f44e7965bb3"
+    },
+    {
+      "RecordID": 3603,
+      "Account": "East Ramapo Central School District #802",
+      "City": "Spring Valley",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb10.tylertech.com/EastRamapo/MyStopWebAPI/",
+      "Serial": "4d1724cf-680f-47bd-8c04-dba8d946ba57"
+    },
+    {
+      "RecordID": 3604,
+      "Account": "Joliet Township High School District",
+      "City": "Joliet",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/joliet/mystopwebapi/",
+      "Serial": "8d45deee-e530-4600-bc09-7a3f4cbb9421"
+    },
+    {
+      "RecordID": 3605,
+      "Account": "Camas School District",
+      "City": "Camas",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://elink.camas.wednet.edu/MyStopWebAPI/",
+      "Serial": "31c17444-abb1-4cc5-b414-830113736764"
+    },
+    {
+      "RecordID": 3606,
+      "Account": "Huntley School District 158",
+      "City": "Algonquin",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/HuntleyCSD158/mystopwebapi/",
+      "Serial": "d6c00f2f-9429-4423-8090-e1785a560aed"
+    },
+    {
+      "RecordID": 3607,
+      "Account": "Metropolitan Nashville Public Schools",
+      "City": "Nashville",
+      "State": "TN",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.mnps.org/MyStopWebAPI/",
+      "Serial": "dac588c0-2161-41f5-86cd-c748cb37f324"
+    },
+    {
+      "RecordID": 3608,
+      "Account": "Wallingford CT Public Schools",
+      "City": "Wallingford",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.wallingford.k12.ct.us/MyStopWebAPI/",
+      "Serial": "608aadaf-27f1-424e-bc66-8f2b5cd37fbb"
+    },
+    {
+      "RecordID": 3609,
+      "Account": "Peninsula School District 401",
+      "City": "Gig Harbor",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/peninsula/mystopwebapi/",
+      "Serial": "4f44976d-d060-4b3f-857d-0e712e8bbf56"
+    },
+    {
+      "RecordID": 3610,
+      "Account": "Sycamore Community Unit School District 427",
+      "City": "Sycamore",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/sycamore/mystopwebapi/",
+      "Serial": "b3875706-6c72-4114-91c9-1dabfad84ad0"
+    },
+    {
+      "RecordID": 3611,
+      "Account": "Ann Arbor Public School District",
+      "City": "Ann Arbor",
+      "State": "MI",
+      "Country": "us",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/annarborpsd/mystopwebapi/",
+      "Serial": "cc141bef-67d0-48cb-9e7f-0b30ac693661"
+    },
+    {
+      "RecordID": 3612,
+      "Account": "Dayton Independent School District",
+      "City": "Dayton",
+      "State": "Texas",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/daytonisd/mystopwebapi/",
+      "Serial": "7b78a591-49b3-4114-9752-f6ca95e09922"
+    },
+    {
+      "RecordID": 3613,
+      "Account": "Hamilton Southeastern School Corp.",
+      "City": "Fishers",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/hamiltonsoutheastern/mystopwebapi/",
+      "Serial": "0dd38612-4467-4bd2-b3e1-a5f11accdce8"
+    },
+    {
+      "RecordID": 3614,
+      "Account": "Chippewa Valley Schools",
+      "City": "Clinton Township",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/Chippewa/MyStopWebAPI/",
+      "Serial": "b32f1bf9-09bf-447f-aff6-0c402cea5316"
+    },
+    {
+      "RecordID": 3615,
+      "Account": "Wall Township Public Schools",
+      "City": "Wall",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/WallTownship/mystopwebapi/",
+      "Serial": "235fcd83-ec86-4c85-99b6-77cc216af7fc"
+    },
+    {
+      "RecordID": 3616,
+      "Account": "Oklahoma City Public Schools",
+      "City": "Oklahoma City",
+      "State": "OK",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/OklahomaCity/mystopwebapi/",
+      "Serial": "3add7032-7bd1-4aba-bcf6-739f6bead2b3"
+    },
+    {
+      "RecordID": 3617,
+      "Account": "Hall County School District",
+      "City": "Gainesville",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.hallco.org/MyStopWebAPI/",
+      "Serial": "c4a753c5-1a0d-4c1d-949f-a6cc2f672ba7"
+    },
+    {
+      "RecordID": 3618,
+      "Account": "Freeport School District 145",
+      "City": "Freeport",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://vt-web.fsd145.org/MyStopWebAPI/",
+      "Serial": "5729804a-9da7-43cd-b0ee-49cf43448302"
+    },
+    {
+      "RecordID": 3620,
+      "Account": "Testing",
+      "City": "castleton",
+      "State": "ny",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb08.tylertech.com/mystopwebapi/",
+      "Serial": "812d91b6-e979-45da-a2cd-ad0c77890eb7"
+    },
+    {
+      "RecordID": 3626,
+      "Account": "Ypsilanti Community Schools",
+      "City": "Ypsilanti",
+      "State": "MI",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.ycschools.us/mystopwebapi/",
+      "Serial": "4a14013e-1320-4b65-b015-f8278b8b1f01"
+    },
+    {
+      "RecordID": 3627,
+      "Account": "Jefferson Davis County School District",
+      "City": "Prentiss",
+      "State": "MS ",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.jdcsd.com/MyStopWebAPI/",
+      "Serial": "196f4afd-7369-43f2-91a6-c2b602948e7e"
+    },
+    {
+      "RecordID": 3628,
+      "Account": "Coachella Valley Unified School District",
+      "City": "THERMAL",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "https://tyler.cvusd.us/mystopwebapi/",
+      "Serial": "79d26d80-44e2-4686-a84f-d9e4d5083f71"
+    },
+    {
+      "RecordID": 3629,
+      "Account": "Cowichan Valley School District #79",
+      "City": "Duncan",
+      "State": "BC",
+      "Country": "CA",
+      "ServiceUrl": "https://bus.sd79.bc.ca/mystopwebapi/",
+      "Serial": "40d227ae-e029-4cb6-a677-07e0d05506b2"
+    },
+    {
+      "RecordID": 3630,
+      "Account": "Sauk Rapids- Rice School District #47",
+      "City": "Sauk Rapids",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://transinfo.isd47.org/MyStopWebAPI/",
+      "Serial": "8014e54c-b4b4-4380-9603-3291b35fd684"
+    },
+    {
+      "RecordID": 3631,
+      "Account": "Eagle Mountain-Saginaw Independent School District",
+      "City": "Fort Worth",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/eaglemountain/mystopwebapi/",
+      "Serial": "d2837c13-bdf3-4912-bdf9-b70cc1910cc3"
+    },
+    {
+      "RecordID": 3632,
+      "Account": "Bethlehem Central School District",
+      "City": "Delmar",
+      "State": "NY ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/BethlehemCSD/MyStopWebAPI/",
+      "Serial": "66afb03c-0807-4fc6-87d8-953afafe198f"
+    },
+    {
+      "RecordID": 3633,
+      "Account": "Metro SD Warren Township",
+      "City": "Indianapolis",
+      "State": "Indiana ",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/MetroSDWarrenTownship/MyStopWebAPI/",
+      "Serial": "59af1715-9d86-4ed0-b606-dd856c6e1e19"
+    },
+    {
+      "RecordID": 3634,
+      "Account": "Winton Woods City Schools",
+      "City": "Cincinnati",
+      "State": "Ohio",
+      "Country": "US",
+      "ServiceUrl": "https://web1.versatrans.tylerapp.com/WintonWoodsCSD/mystopwebapi/",
+      "Serial": "dbe70410-31cc-4445-9d3e-5893151a59e1"
+    },
+    {
+      "RecordID": 3635,
+      "Account": "Vigo County School Corporation",
+      "City": "Terre Haute",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/VigoCounty/mystopwebapi/",
+      "Serial": "d6a9200a-820d-4ff4-8be1-87795f2d779e"
+    },
+    {
+      "RecordID": 3636,
+      "Account": "Cartwright School District 83",
+      "City": "Phoenix",
+      "State": "AZ",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb05.tylertech.com/CartwrightSD83/mystopwebapi/",
+      "Serial": "f28491c6-4e13-4aa4-9493-0d4e36251608"
+    },
+    {
+      "RecordID": 3638,
+      "Account": "Monroe County Community School Corporation",
+      "City": "Bloomington",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://versascreen.mccsc.edu/MyStopWebAPI/",
+      "Serial": "d33386ac-136f-4b97-949e-f9c14bc502d2"
+    },
+    {
+      "RecordID": 3639,
+      "Account": "North Putnam CSC",
+      "City": "Bainbridge",
+      "State": "Indiana",
+      "Country": "US",
+      "ServiceUrl": "https://vtrans.nputnam.k12.in.us/mystopwebapi/",
+      "Serial": "60009c26-e824-486d-9dd9-f80fd0600078"
+    },
+    {
+      "RecordID": 3640,
+      "Account": "North Newton School Corporation",
+      "City": "Morocco",
+      "State": "In",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.nn.k12.in.us/MyStopWebAPI/",
+      "Serial": "c4ea2a2c-2380-45e0-9ae8-032c8060248b"
+    },
+    {
+      "RecordID": 3641,
+      "Account": "Lancaster City School District",
+      "City": "Lancaster",
+      "State": "OH",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/lancastercity/MyStopWebAPI/",
+      "Serial": "46d8d8fc-b081-454a-8226-1663d758d1da"
+    },
+    {
+      "RecordID": 3642,
+      "Account": "Jackson Public Schools",
+      "City": "Jackson",
+      "State": "MS",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/jackson/mystopwebapi/",
+      "Serial": "5049db6b-3d94-419f-8c14-574e7f9baefd"
+    },
+    {
+      "RecordID": 3643,
+      "Account": "North Saint Paul-Maplewood-Oakdale School District 622",
+      "City": "North St Paul",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://transportation.isd622.org/MyStopWebAPI/",
+      "Serial": "0096cb10-db54-4ca6-a6f5-8671392452fa"
+    },
+    {
+      "RecordID": 3644,
+      "Account": "Vermilion Local School District",
+      "City": "Vermilion",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/VermilionLocal/mystopwebapi/",
+      "Serial": "6c6482b9-e488-43c7-b079-a01820b9325f"
+    },
+    {
+      "RecordID": 3645,
+      "Account": "Lake Stevens School District #4",
+      "City": "Lake Stevens",
+      "State": "Washington",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen-web.lssd4.org/mystopwebapi/",
+      "Serial": "18bb1a14-579e-4d69-812e-8b0ea72490f8"
+    },
+    {
+      "RecordID": 3646,
+      "Account": "Jackson Township Board of Education",
+      "City": "Jackson",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://bus.jacksonsd.org/mystopwebapi/",
+      "Serial": "66695bf7-bcce-42d4-bdc3-9f983b83d038"
+    },
+    {
+      "RecordID": 3647,
+      "Account": "Tupelo Public School District",
+      "City": "Tupelo",
+      "State": "MS",
+      "Country": "US",
+      "ServiceUrl": "https://vtweb.tupeloschools.com/MyStopWebAPI/",
+      "Serial": "a98327a0-829f-4e4b-88d0-4e4a8a526b57"
+    },
+    {
+      "RecordID": 3648,
+      "Account": "Canutillo Independent School District",
+      "City": "El Paso",
+      "State": "Texas",
+      "Country": "US",
+      "ServiceUrl": "https://elink.canutillo-isd.org/mystopwebapi/",
+      "Serial": "f87e8351-6592-42e2-9d68-7ff250a80c41"
+    },
+    {
+      "RecordID": 3649,
+      "Account": "Orange County Public School District",
+      "City": "Orlando",
+      "State": "FL",
+      "Country": "US",
+      "ServiceUrl": "https://orangecounty.tylertech.com/mystopwebapi/",
+      "Serial": "0ceaed28-b402-4b4a-bda3-bf95dc428eb3"
+    },
+    {
+      "RecordID": 3650,
+      "Account": "East St. Louis School District 189",
+      "City": "East St. Louis",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://trans.estl189.com/mystopwebapi/",
+      "Serial": "1e508912-13fd-4328-914c-cdefc4aab9f0"
+    },
+    {
+      "RecordID": 3651,
+      "Account": "East San Gabriel",
+      "City": "Rosemead",
+      "State": "CA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/EastSanGabriel/mystopwebapi/",
+      "Serial": "9aee5e32-8bba-4e8a-a3ef-0e6ae17e5452"
+    },
+    {
+      "RecordID": 3652,
+      "Account": "Rio Rancho Public School District",
+      "City": "Rio Rancho",
+      "State": "NM",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/RioRanchoPSD/mystopwebapi/",
+      "Serial": "3a12ff72-07ab-432b-b7a5-1bda761a6f77"
+    },
+    {
+      "RecordID": 3653,
+      "Account": "Liranzo Main School",
+      "City": "Schoharie",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.tylertech.com/MyStopWebAPI_Frank_34223/",
+      "Serial": "571d039d-8c28-4f83-adec-cacbbdfbad78"
+    },
+    {
+      "RecordID": 3654,
+      "Account": "Warren Township",
+      "City": "indianapolis",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/warrentownship/mystopwebapi/",
+      "Serial": "9f4e8be8-77ba-4219-b139-d7d4d900c3f6"
+    },
+    {
+      "RecordID": 3655,
+      "Account": "United Independent School District",
+      "City": "Laredo",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://vtonscreen.united.uisd.net/mystopwebapi/",
+      "Serial": "b81877d5-2fc6-473d-ac0e-bf200556e7d9"
+    },
+    {
+      "RecordID": 3656,
+      "Account": "ISD 318",
+      "City": "GRAND RAPIDS",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://trans.isd318.org/mystopwebapi/",
+      "Serial": "561ae287-fce7-4260-98c6-31eaf7e0c4af"
+    },
+    {
+      "RecordID": 3659,
+      "Account": "Rockdale County public schools",
+      "City": "conyers",
+      "State": "GA",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/RockdaleCounty/mystopwebapi/",
+      "Serial": "43eb816b-376b-4453-85e6-848a7dc4fef4"
+    },
+    {
+      "RecordID": 3660,
+      "Account": "Elk Island Catholic School Division",
+      "City": "Sherwood Park",
+      "State": "AB",
+      "Country": "CA",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/ElkIsland/mystopwebapi/",
+      "Serial": "9681080e-cd3b-4f46-a9ce-941c33b4a2bd"
+    },
+    {
+      "RecordID": 3661,
+      "Account": "West Ada School District",
+      "City": "Meridian",
+      "State": "Idaho",
+      "Country": "US",
+      "ServiceUrl": "https://www.thebusportal.com/meridianid/mystopwebapi/",
+      "Serial": "63f53dfc-509a-45fa-ad04-eb6d63f3b5a2"
+    },
+    {
+      "RecordID": 3662,
+      "Account": "Washington County Schools",
+      "City": "Jonesborough",
+      "State": "Tennessee",
+      "Country": "US",
+      "ServiceUrl": "https://wcdeonscreen.wcde.org/mystopwebapi/",
+      "Serial": "f0ed4260-fb33-4510-aebc-989e408b47e2"
+    },
+    {
+      "RecordID": 3664,
+      "Account": "Sultan School District",
+      "City": "Sultan",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.sultan.k12.wa.us/mystopwebapi/",
+      "Serial": "dad7e098-705f-408b-a3b5-9758c33ea588"
+    },
+    {
+      "RecordID": 3665,
+      "Account": "Joplin Schools",
+      "City": "Joplin",
+      "State": "MO",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/joplin/mystopwebapi/",
+      "Serial": "f1deda53-735b-468f-aae5-2d6123184ee9"
+    },
+    {
+      "RecordID": 3666,
+      "Account": "St Marys County Public Schools",
+      "City": "leonardtown",
+      "State": "maryland",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/stmaryscounty/mystopwebapi/",
+      "Serial": "e1628591-de4b-4e49-a295-cebc4cd413ca"
+    },
+    {
+      "RecordID": 3667,
+      "Account": "Mounds View Public Schools",
+      "City": "Shoreview",
+      "State": "Minnesota",
+      "Country": "US",
+      "ServiceUrl": "https://mvversatrans.moundsviewschools.org/mystopwebapi/",
+      "Serial": "6ed07e8b-a8af-4d76-b3c3-0fb3c8f083c8"
+    },
+    {
+      "RecordID": 3668,
+      "Account": "Hamilton School District",
+      "City": "Sussex",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://www.thebusportal.com/hamiltonwi/mystopwebapi/",
+      "Serial": "fd2b3d53-9eab-44aa-8aa3-db7e3810fa23"
+    },
+    {
+      "RecordID": 3669,
+      "Account": "Calcasieu Parish School Board",
+      "City": "Lake Charles",
+      "State": "LA",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb04.tylertech.com/calcasieu/mystopwebapi/",
+      "Serial": "87408de0-a215-4142-90b7-28383b33afcc"
+    },
+    {
+      "RecordID": 3670,
+      "Account": "Meridian Community Unit School District 223",
+      "City": "Stillman Valley",
+      "State": "Il",
+      "Country": "us",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/meridiancusd223/mystopwebapi/",
+      "Serial": "f33046b5-98cf-4fbb-b3d5-629decd06a8e"
+    },
+    {
+      "RecordID": 3671,
+      "Account": "Bedford City School District",
+      "City": "Bedford",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/bedford/mystopwebapi/",
+      "Serial": "bccf3c94-2883-4775-8223-2191dadcc3a3"
+    },
+    {
+      "RecordID": 3672,
+      "Account": "Niagra Falls City School District",
+      "City": "Niagara Falls",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://onscreen.nfschools.net/MyStopWebAPI/",
+      "Serial": "01e05380-1d52-49b1-8948-d7e138ddf538"
+    },
+    {
+      "RecordID": 3673,
+      "Account": "Dunlap Community Unit School District 323",
+      "City": "Dunlap",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.dunlapcusd.net/MyStopWebAPI/",
+      "Serial": "71c8985b-1f4e-4e1c-acec-370da4814c1d"
+    },
+    {
+      "RecordID": 3674,
+      "Account": "St Cloud Area School District 742",
+      "City": "Waite Park",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://stcloud.k12transportation.us/mystopwebapi/",
+      "Serial": "f52539cb-a774-4c55-beea-b74a2ca407e0"
+    },
+    {
+      "RecordID": 3675,
+      "Account": "Plymouth/Elkhart Lake, WI",
+      "City": "Plymouth",
+      "State": "WI",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/JohnsonSBSPlymouth/MyStopWebAPI/",
+      "Serial": "52a65f73-bea3-4962-b507-d14afe71896c"
+    },
+    {
+      "RecordID": 3676,
+      "Account": "PAISD",
+      "City": "Port Arthur",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "http://versatrans/MyStopWebAPI/",
+      "Serial": "07a0a1de-e416-4fe8-9909-98731ce4645d"
+    },
+    {
+      "RecordID": 3677,
+      "Account": "Forest Lake Area Schools",
+      "City": "Forest Lake",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.flaschools.org/mystopwebapi/",
+      "Serial": "f46ca786-96bc-4c2e-b486-1be7aaa1ad05"
+    },
+    {
+      "RecordID": 3678,
+      "Account": "Lancaster City Schools",
+      "City": "Lancaster",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb07.tylertech.com/lancastercity/mystopwebapi/",
+      "Serial": "a032588b-6bef-4bf1-ba45-069992a260b4"
+    },
+    {
+      "RecordID": 3679,
+      "Account": "Fort Wayne Community Schools",
+      "City": "Fort Wayne",
+      "State": "IN",
+      "Country": "US",
+      "ServiceUrl": "https://vt.fwcs.k12.in.us/mystopwebapi/",
+      "Serial": "695b97bb-0316-4b24-a14a-74d31d108ceb"
+    },
+    {
+      "RecordID": 3681,
+      "Account": "Bridgewater-Raritan Regional School District",
+      "City": "Bridgewater",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/BridgewaterRaritan/mystopwebapi/",
+      "Serial": "949fd552-9b89-4f07-ae32-1b7011e20a39"
+    },
+    {
+      "RecordID": 3684,
+      "Account": "Parma City School District",
+      "City": "Parma",
+      "State": "OH",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.parmacityschools.org/MyStopWebAPI/",
+      "Serial": "2f05c385-3acd-4f7c-814a-7e292caa70e4"
+    },
+    {
+      "RecordID": 3685,
+      "Account": "Westerly Public Schools",
+      "City": "Westerly",
+      "State": "RI",
+      "Country": "US",
+      "ServiceUrl": "https://versatransweb06.tylertech.com/westerly/MyStopWebAPI/",
+      "Serial": "5a85b32b-363d-47c4-bb7a-bfb159216f7b"
+    },
+    {
+      "RecordID": 3686,
+      "Account": "Bridgeton Public School",
+      "City": "Bridgeton",
+      "State": "NJ",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/bridgeton/mystopwebapi/",
+      "Serial": "cf985d12-5296-4d89-85e1-cbdf65f34f1a"
+    },
+    {
+      "RecordID": 3687,
+      "Account": "Stafford Township School District",
+      "City": "Manahawkin",
+      "State": "New Jersey",
+      "Country": "US",
+      "ServiceUrl": "https://elink.staffordschools.org/MyStopWebAPI/",
+      "Serial": "f92aa10c-4dc9-476e-880e-94f91ce0afff"
+    },
+    {
+      "RecordID": 3688,
+      "Account": "Putnam County School District",
+      "City": "Palatka",
+      "State": "Florida",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.putnamschools.org/",
+      "Serial": "ca36f786-6f86-4d8a-b9ac-9855f3649b35"
+    },
+    {
+      "RecordID": 3689,
+      "Account": "Montrose County School District",
+      "City": "Montrose",
+      "State": "CO",
+      "Country": "US",
+      "ServiceUrl": "https://thebusportal.com/MontroseCO/mystopwebapi/",
+      "Serial": "1ddfe8d4-3b2c-44b6-92cb-e0392f796b12"
+    },
+    {
+      "RecordID": 3690,
+      "Account": "Perkiomen Valley School District",
+      "City": "Collegeville",
+      "State": "PA",
+      "Country": "US",
+      "ServiceUrl": "https://www.thebusportal.com/CollegevillePA/mystopwebapi/",
+      "Serial": "96b21c93-3be5-4e05-b091-55e296e0b91b"
+    },
+    {
+      "RecordID": 3691,
+      "Account": "Mesa County Valley School District 51",
+      "City": "Grand Junction",
+      "State": "CO",
+      "Country": "US",
+      "ServiceUrl": "https://www.thebusportal.com/mesaco/mystopwebapi/",
+      "Serial": "6f6d72ee-8bf5-4101-ba07-2ae39c90357a"
+    },
+    {
+      "RecordID": 3692,
+      "Account": "City of St. Charles School District R6",
+      "City": "St. Charles",
+      "State": "MO",
+      "Country": "US",
+      "ServiceUrl": "https://r6transsrv.stcharlessd.org/mystopwebapi/",
+      "Serial": "2fbb487a-8b9f-47d1-bd8d-b8790bb53e7b"
+    },
+    {
+      "RecordID": 3694,
+      "Account": "Geneva City CSD",
+      "City": "Geneva",
+      "State": "NY",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.genevacsd.org/mystopwebapi/",
+      "Serial": "5dae9725-5a76-4495-b7f0-cd5c692806be"
+    },
+    {
+      "RecordID": 3695,
+      "Account": "Langley SD 35",
+      "City": "Langley",
+      "State": "BC",
+      "Country": "CA",
+      "ServiceUrl": "https://elink.sd35.bc.ca/Mystopwebapi/",
+      "Serial": "f81b5886-a309-4d8a-9822-e141c0034110"
+    },
+    {
+      "RecordID": 3696,
+      "Account": "Bastrop Independent School District",
+      "City": "Bastrop",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/BastropISD/MyStopWebAPI/",
+      "Serial": "e40d075f-0921-4e8b-afec-b49bfb384db6"
+    },
+    {
+      "RecordID": 3697,
+      "Account": "Lamar Consolidated Independent School District",
+      "City": "Rosenberg",
+      "State": "TX",
+      "Country": "US",
+      "ServiceUrl": "https://mystop.lcisd.org/MyStopWebAPI/",
+      "Serial": "3be453b2-319c-4c1f-b870-0c24aada9e44"
+    },
+    {
+      "RecordID": 3699,
+      "Account": "Norfolk Public Schools",
+      "City": "Norfolk",
+      "State": "VA",
+      "Country": "us",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/norfolkps/mystopwebapi/",
+      "Serial": "a58272fa-5217-4240-a4d7-6a264e1cddb2"
+    },
+    {
+      "RecordID": 3701,
+      "Account": "Statewide Transportation Program",
+      "City": "Coventry",
+      "State": "RI",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/TransparRIDE/MyStopWebAPI/",
+      "Serial": "a646be0e-a698-4d03-b177-289bae8b78eb"
+    },
+    {
+      "RecordID": 3702,
+      "Account": "Anoka-Hennepin Schools",
+      "City": "Anoka",
+      "State": "MN",
+      "Country": "US",
+      "ServiceUrl": "https://versatrans.ahschools.us/MyStopWebAPI/",
+      "Serial": "5a4d3881-00f6-4fd5-b37f-4679b901792b"
+    },
+    {
+      "RecordID": 3703,
+      "Account": "Albemarle County Public Schools",
+      "City": "Charlottesville",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://elink.k12albemarle.org/MyStopWebAPI/",
+      "Serial": "ddf1a6a2-ca96-4885-b4d9-fa6e9b96f4a7"
+    },
+    {
+      "RecordID": 3704,
+      "Account": "Darien Public Schools",
+      "City": "Darien",
+      "State": "CT",
+      "Country": "US",
+      "ServiceUrl": "https://web4.versatrans.tylerapp.com/DarienPS/MystopWebAPI/",
+      "Serial": "82d51049-0326-4dda-bfb1-4e368d423fba"
+    },
+    {
+      "RecordID": 3708,
+      "Account": "Mid Columbia Bus Company / Forest Grove School District 15",
+      "City": "Pendleton",
+      "State": "OR",
+      "Country": "US",
+      "ServiceUrl": "HTTPS://web1.versatrans.tylerapp.com/FORESTGROVESD15/MYSTOPWEBAPI/",
+      "Serial": "87bc479e-f091-46c9-b5af-9bfd19046944"
+    },
+    {
+      "RecordID": 3709,
+      "Account": "Prince George County Public Schools",
+      "City": "Prince George",
+      "State": "VA",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/PrinceGeorge/MyStopWebAPI/",
+      "Serial": "9c12cf7b-8740-45eb-898f-694bd73ca4ec"
+    },
+    {
+      "RecordID": 3710,
+      "Account": "Jefferson City Schools",
+      "City": "Daniel Island",
+      "State": "mo",
+      "Country": "US",
+      "ServiceUrl": "https://web3.versatrans.tylerapp.com/STAJeffersonCity/mystopwebapi/",
+      "Serial": "d511ce8f-d8d8-416a-8637-4f6270dc1c0f"
+    },
+    {
+      "RecordID": 3711,
+      "Account": "Bloomington",
+      "City": "Bloomington",
+      "State": "IL",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/ICSBBloomington/MyStopWebAPI/",
+      "Serial": "e5fb5bf4-7737-482c-ac56-95b6d66b70f9"
+    },
+    {
+      "RecordID": 3712,
+      "Account": "Topeka",
+      "City": "topeka",
+      "State": "ks",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/ICSBTopeka/MyStopWebAPI/",
+      "Serial": "55b43031-051a-496a-b28f-2e804e728ec2"
+    },
+    {
+      "RecordID": 3713,
+      "Account": "Iowa Central School Bus Iowa City",
+      "City": "Naperville",
+      "State": "IA",
+      "Country": "US",
+      "ServiceUrl": "https://web8.versatrans.tylerapp.com/icsbiowacity/mystopwebapi/",
+      "Serial": "b94f3eca-a1bf-4e86-b473-e07ead341903"
+    },
+    {
+      "RecordID": 3714,
+      "Account": "Enumclaw School District 216",
+      "City": "Enumclaw",
+      "State": "WA",
+      "Country": "US",
+      "ServiceUrl": "https://web5.versatrans.tylerapp.com/enumclaw/mystopwebapi/",
+      "Serial": "3b48c19f-bff9-458e-ba55-33702686abc6"
+    }
+  ]
+}

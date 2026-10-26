@@ -1,0 +1,133 @@
+{
+  "title": "Versatrans My Stop",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Choose your school district",
+        "description": "Select your district by name and location. {directory_status}",
+        "data": {
+          "district": "School district"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update account password",
+        "description": "The district API rejected authentication. Enter the current password for this account.",
+        "data": {
+          "password": "Password"
+        }
+      },
+      "manual": {
+        "title": "Manual district setup",
+        "description": "Enter the HTTPS district API URL and district GUID, along with your credentials. Confirm the district timezone.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "url": "District API URL",
+          "school_guid": "District GUID",
+          "timezone": "District timezone"
+        }
+      },
+      "credentials": {
+        "title": "Connect to {district}",
+        "description": "Enter your district account credentials for {district}. Confirm the district timezone; it defaults to your Home Assistant timezone. Student devices and bus locations will appear in Home Assistant.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "timezone": "District timezone"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed. Verify your district account credentials.",
+      "cannot_connect": "Unable to connect to the district API.",
+      "invalid_url": "Enter an HTTPS API URL without embedded credentials, query, or fragment.",
+      "invalid_timezone": "Enter an IANA timezone, such as America/Detroit.",
+      "unsupported_password": "This initial integration supports ASCII passwords only.",
+      "tls_error": "Home Assistant could not validate the district HTTPS certificate or complete the TLS handshake. Check the HA clock and certificate trust; certificate verification remains enabled.",
+      "timeout": "The district API did not respond within 30 seconds from Home Assistant.",
+      "dns_error": "Home Assistant could not resolve the district hostname. Check DNS on the HA host.",
+      "connection_error": "Home Assistant could not connect to or read from the district server. Check network access from HA.",
+      "invalid_response": "The server returned an unexpected response instead of the expected API data. Check that the URL ends in /MyStopWebAPI/.",
+      "endpoint_not_found": "The login endpoint returned HTTP 404. For Lake Orion use https://mystop.lok12.org/MyStopWebAPI/",
+      "redirect_error": "The API returned a redirect. Verify the API URL; credentials were not forwarded.",
+      "rate_limited": "The district API is rate-limiting requests (HTTP 429). Wait before retrying.",
+      "server_error": "The district API returned an HTTP 5xx server error. The exact status is in the Home Assistant log.",
+      "http_error": "The district API returned an unexpected HTTP status. See the Home Assistant log for the status code.",
+      "invalid_district": "Choose a district from the list.",
+      "district_http_only": "This directory entry provides only HTTP. Use Manual setup with a district-confirmed HTTPS API URL and GUID."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Credentials updated."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bus tracking options",
+        "description": "Stale locations are last-known bus positions. The tracker retains a gps_status attribute; require fresh for location-based automations.",
+        "data": {
+          "scan_interval": "Refresh interval (seconds)",
+          "stale_after": "Mark GPS stale after (seconds)",
+          "show_stale": "Keep stale positions visible on the map",
+          "poll_before": "Polling minutes before each stop",
+          "poll_after": "Polling minutes after each stop"
+        }
+      }
+    }
+  },
+  "entity": {
+    "device_tracker": {
+      "bus_location": {
+        "name": "Bus location"
+      }
+    },
+    "sensor": {
+      "vehicle": {
+        "name": "Assigned bus"
+      },
+      "last_seen": {
+        "name": "Last GPS update"
+      },
+      "morning": {
+        "name": "Morning pickup time"
+      },
+      "afternoon": {
+        "name": "Afternoon drop-off time"
+      },
+      "polling_status": {
+        "name": "Polling status"
+      },
+      "next_polling_window": {
+        "name": "Next polling window"
+      },
+      "schedule_status": {
+        "name": "Schedule status"
+      }
+    },
+    "binary_sensor": {
+      "active": {
+        "name": "Route active"
+      }
+    },
+    "button": {
+      "polling_manual": {
+        "name": "Start polling"
+      },
+      "polling_paused": {
+        "name": "Stop polling"
+      },
+      "polling_scheduled": {
+        "name": "Resume scheduled polling"
+      }
+    },
+    "number": {
+      "poll_before": {
+        "name": "Polling minutes before stop"
+      },
+      "poll_after": {
+        "name": "Polling minutes after stop"
+      }
+    }
+  }
+}

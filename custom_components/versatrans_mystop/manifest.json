@@ -1,0 +1,14 @@
+{
+  "domain": "versatrans_mystop",
+  "name": "Versatrans My Stop",
+  "codeowners": [
+    "@FutureGUIs"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/FutureGUIs/versatrans_mystop",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/FutureGUIs/versatrans_mystop/issues",
+  "requirements": [],
+  "version": "0.4.3"
+}
