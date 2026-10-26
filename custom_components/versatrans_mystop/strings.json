@@ -96,13 +96,33 @@
         "name": "Afternoon drop-off time"
       },
       "polling_status": {
-        "name": "Polling status"
+        "name": "Polling status",
+        "state": {
+          "polling": "Tracking the bus",
+          "manual_polling": "Tracking the bus (started manually)",
+          "paused": "Tracking paused",
+          "request_failed": "Bus location request failed",
+          "outside_window": "Waiting for the next stop window",
+          "no_matched_vehicle": "No bus assigned right now",
+          "schedule_unavailable": "No schedule available",
+          "unknown": "Unknown"
+        }
       },
       "next_polling_window": {
         "name": "Next polling window"
       },
       "schedule_status": {
-        "name": "Schedule status"
+        "name": "Schedule status",
+        "state": {
+          "available": "Schedule available",
+          "cached_schedule": "Using the saved schedule",
+          "missing_schedule": "No schedule found",
+          "unsupported_service_days": "Service days not recognized",
+          "missing_stop_time": "Stop time missing",
+          "unsupported_direction": "Route direction not recognized",
+          "weekdays_assumed": "No service days listed, assuming weekdays",
+          "unknown": "Unknown"
+        }
       }
     },
     "binary_sensor": {

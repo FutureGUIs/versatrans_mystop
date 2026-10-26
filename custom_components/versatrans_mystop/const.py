@@ -1,6 +1,6 @@
 DOMAIN = "versatrans_mystop"
 NAME = "Versatrans My Stop"
-VERSION = "0.4.3"
+VERSION = "0.4.4"
 DEFAULT_URL = "https://mystop.lok12.org/MyStopWebAPI/"
 DEFAULT_SCHOOL = "32fc1664-8521-4825-a60f-d0059483b315"
 DEFAULT_TIMEZONE = "America/Detroit"

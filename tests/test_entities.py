@@ -40,7 +40,7 @@ def entities(monkeypatch):
     module('homeassistant.helpers.event',async_track_time_interval=track)
     module('homeassistant.components.device_tracker',TrackerEntity=TrackerEntity)
     module('homeassistant.components.device_tracker.const',SourceType=SimpleNamespace(GPS='gps'))
-    module('homeassistant.components.sensor',SensorEntity=SensorEntity,RestoreSensor=RestoreSensor,SensorDeviceClass=SimpleNamespace(TIMESTAMP='timestamp',DURATION='duration'))
+    module('homeassistant.components.sensor',SensorEntity=SensorEntity,RestoreSensor=RestoreSensor,SensorDeviceClass=SimpleNamespace(TIMESTAMP='timestamp',DURATION='duration',ENUM='enum'))
     module('homeassistant.components.binary_sensor',BinarySensorEntity=BinarySensorEntity)
     modules=[importlib.import_module('mystop_test.'+name) for name in ('entity','device_tracker','sensor','binary_sensor')]
     modules[2].test_ticks=ticks
@@ -154,7 +154,7 @@ def test_schedule_status_exposes_only_day_codes(entities):
     c.client=SimpleNamespace(account={'SessionID':'private','Students':[
         {'RecordID':1,'FirstName':'private','Routes':[{'Days':'MTWHF','Bus':'private'}]},
         {'RecordID':2,'Routes':[{'Days':'Mon'}]}]})
-    assert sensor.BusSensor(c,'1','schedule_status').extra_state_attributes=={'api_service_days':['MTWHF']}
+    assert sensor.BusSensor(c,'1','schedule_status').extra_state_attributes=={'api_service_days':['MTWHF'],'schedule_issues':[]}
 
 
 def test_polling_diagnostics_and_stop_sensor_share_cached_schedule(entities):
@@ -217,3 +217,29 @@ def test_every_translation_key_has_an_english_name(entities):
             assert not hasattr(entity,'_attr_name')
     assert set(names['button'])=={'polling_manual','polling_paused','polling_scheduled'}
     assert set(names['number'])=={'poll_before','poll_after'}
+
+
+def test_status_sensors_are_enums_with_plain_language_text(entities):
+    import json
+    from pathlib import Path
+    _,_,sensor,_=entities;c=coordinator()
+    strings=json.loads((Path(__file__).parents[1]/'custom_components'/'versatrans_mystop'/'strings.json').read_text())
+    for key in ('polling_status','schedule_status'):
+        entity=sensor.BusSensor(c,'1',key)
+        assert entity._attr_device_class=='enum'
+        text=strings['entity']['sensor'][key]['state']
+        assert set(text)==set(entity._attr_options)
+        assert all('_' not in label and label[0].isupper() for label in text.values())
+    status=sensor.BusSensor(c,'1','schedule_status')
+    c.data['1'].schedule_status='weekdays_assumed, unsupported_direction'
+    assert status.native_value=='unsupported_direction'
+    assert status.extra_state_attributes['schedule_issues']==['weekdays_assumed','unsupported_direction']
+    c.data['1'].schedule_status='cached_schedule'
+    assert status.native_value=='cached_schedule'
+    c.data['1'].schedule_status='something new'
+    assert status.native_value=='unknown'
+    polling=sensor.BusSensor(c,'1','polling_status')
+    c.data['1'].polling_status='request_failed'
+    assert polling.native_value=='request_failed'
+    c.data['1'].polling_status='future_value'
+    assert polling.native_value=='unknown'

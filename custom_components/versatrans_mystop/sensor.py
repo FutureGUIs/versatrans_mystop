@@ -17,6 +17,27 @@ FIELDS = ("vehicle", "last_seen", "morning", "afternoon", "polling_status",
 # Troubleshooting values: shown under Diagnostic on the device page and left
 # out of auto-generated dashboards. They can still be added to any card.
 DIAGNOSTIC_FIELDS = ("polling_status", "next_polling_window", "schedule_status")
+# Stored states stay machine-readable for automations; strings.json supplies
+# the plain-language text shown in the UI.
+POLLING_STATES = ("polling", "manual_polling", "paused", "request_failed", "outside_window",
+                  "no_matched_vehicle", "schedule_unavailable", "unknown")
+SCHEDULE_ISSUES = ("unsupported_service_days", "missing_stop_time", "unsupported_direction",
+                   "weekdays_assumed")  # most important first
+SCHEDULE_STATES = ("available", "cached_schedule", "missing_schedule", *SCHEDULE_ISSUES, "unknown")
+
+
+def schedule_issues(value):
+    """Split the plan status into its individual issues."""
+    return [part.strip() for part in str(value or "").split(",") if part.strip() in SCHEDULE_ISSUES]
+
+
+def schedule_state(value):
+    """One state per schedule; several issues show the most important one."""
+    if value in SCHEDULE_STATES:
+        return value
+    return next(iter(sorted(schedule_issues(value), key=SCHEDULE_ISSUES.index)), "unknown")
+
+
 ICONS = {"vehicle": "mdi:bus-school", "last_seen": "mdi:crosshairs-gps", "morning": "mdi:bus-clock",
          "afternoon": "mdi:home-clock", "polling_status": "mdi:sync", "next_polling_window": "mdi:calendar-clock",
          "schedule_status": "mdi:calendar-check"}
@@ -40,6 +61,12 @@ class BusSensor(StudentEntity, SensorEntity):
             self._attr_entity_category = EntityCategory.DIAGNOSTIC
         if key in ("last_seen", "next_polling_window"):
             self._attr_device_class = SensorDeviceClass.TIMESTAMP
+        elif key == "polling_status":
+            self._attr_device_class = SensorDeviceClass.ENUM
+            self._attr_options = list(POLLING_STATES)
+        elif key == "schedule_status":
+            self._attr_device_class = SensorDeviceClass.ENUM
+            self._attr_options = list(SCHEDULE_STATES)
 
     @property
     def native_value(self):
@@ -48,6 +75,10 @@ class BusSensor(StudentEntity, SensorEntity):
             return None
         if self.key == "last_seen":
             return s.position.timestamp if s.position else None
+        if self.key == "polling_status":
+            return s.polling_status if s.polling_status in POLLING_STATES else "unknown"
+        if self.key == "schedule_status":
+            return schedule_state(s.schedule_status)
         return getattr(s, self.key)
 
     @property
@@ -69,7 +100,8 @@ class BusSensor(StudentEntity, SensorEntity):
             raw = next((s for s in students if str(get(s, "RecordID")) == self.student_id), {})
             routes = get(raw, "Routes", []) or []
             return {"api_service_days": [str(get(route, "Days", "") or "") for route in routes]
-                    if isinstance(routes, list) else []}
+                    if isinstance(routes, list) else [],
+                    "schedule_issues": schedule_issues(self.student.schedule_status)}
         return None
 
 

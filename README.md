@@ -3,7 +3,7 @@
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 [![Validate](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml/badge.svg)](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml)
 
-Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.4.3.
+Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.4.4.
 Connects to a school district's Versatrans My Stop API to provide student devices,
 assigned-bus locations, scheduled stop timestamps, and polling controls. Only Lake
 Orion has been account-tested. Offline tests use synthetic records and minimal HA
@@ -53,10 +53,36 @@ Every returned student gets a device with these entities:
 | Last GPS update | Main | Timestamp of the newest valid position |
 | Morning pickup time | Main | Next inbound stop timestamp on a service day |
 | Afternoon drop-off time | Main | Next outbound stop timestamp on a service day |
-| Polling status | Diagnostic | polling, manual_polling, paused, request_failed, outside_window, no_matched_vehicle, or schedule_unavailable |
+| Polling status | Diagnostic | Whether the bus is being tracked right now, for example "Tracking the bus" or "Waiting for the next stop window" |
 | Next polling window | Diagnostic | Next upcoming automatic window start |
-| Schedule status | Diagnostic | available, cached_schedule, weekdays_assumed, missing_schedule, or unsupported field warning(s) |
+| Schedule status | Diagnostic | Whether a usable schedule was found, for example "Schedule available" or "Using the saved schedule" |
 | Route active | Diagnostic | Independent server activity flag; unknown outside polling windows |
+
+Polling status and Schedule status display plain-language text. Automations
+and templates see these underlying states:
+
+| Polling status state | Shown as |
+|---|---|
+| polling | Tracking the bus |
+| manual_polling | Tracking the bus (started manually) |
+| paused | Tracking paused |
+| request_failed | Bus location request failed |
+| outside_window | Waiting for the next stop window |
+| no_matched_vehicle | No bus assigned right now |
+| schedule_unavailable | No schedule available |
+
+| Schedule status state | Shown as |
+|---|---|
+| available | Schedule available |
+| cached_schedule | Using the saved schedule |
+| missing_schedule | No schedule found |
+| unsupported_service_days | Service days not recognized |
+| missing_stop_time | Stop time missing |
+| unsupported_direction | Route direction not recognized |
+| weekdays_assumed | No service days listed, assuming weekdays |
+
+When a schedule has more than one issue, Schedule status shows the most
+important one and the schedule_issues attribute lists them all.
 
 Diagnostic entities appear under **Diagnostic** on the device page and are left
 out of auto-generated dashboards. Entity IDs are unchanged, and they can still be
