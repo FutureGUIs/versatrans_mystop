@@ -44,9 +44,16 @@ def service_days(value):
         return frozenset(days), 'available'
     if words and all(w in names for w in words):
         return frozenset(names[w] for w in words), 'available'
-    # Accept MTWHF weekday notation, separated
-    # compact groups and TH for Thursday without adding an extra Tuesday.
-    compact = ''.join(words).replace('th', 'h')
+    # Compact codes. Versatrans uses one letter per day with H for Thursday
+    # (MTWHF), so MTHF is Mon, Tue, Thu, Fri. Read each letter alone first and
+    # treat TH as Thursday only when single letters would repeat a day or run
+    # out of order (MTWTHF, TTH).
+    compact = ''.join(words)
+    if compact and all(c in WEEKDAY_CODES for c in compact):
+        letters = [WEEKDAY_CODES[c] for c in compact]
+        if letters == sorted(set(letters)):
+            return frozenset(letters), 'available'
+    compact = compact.replace('th', 'h')
     if compact and all(c in WEEKDAY_CODES for c in compact):
         return frozenset(WEEKDAY_CODES[c] for c in compact), 'available'
     return frozenset(), 'unsupported_service_days'

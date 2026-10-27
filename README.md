@@ -3,7 +3,7 @@
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 [![Validate](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml/badge.svg)](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml)
 
-Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.4.4.
+Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.4.5.
 Connects to a school district's Versatrans My Stop API to provide student devices,
 assigned-bus locations, scheduled stop timestamps, and polling controls. Only Lake
 Orion has been account-tested. Offline tests use synthetic records and minimal HA
@@ -116,7 +116,10 @@ refresh tick observes each window boundary. A 3:36 PM stop therefore polls from
 3:21 through 4:06 PM, subject to that refresh interval.
 
 Named service days, day ranges, and compact weekday codes are supported: MTWHF
-and MTWRF mean Monday-Friday; MWF means Monday, Wednesday, and Friday. Ranges
+and MTWRF mean Monday-Friday; MWF means Monday, Wednesday, and Friday. Compact
+codes use one letter per day with H (or R) for Thursday, so MTHF means Monday,
+Tuesday, Thursday, and Friday. TH is read as Thursday only when single letters
+would repeat a day or run out of order, as in MTWTHF or TTH. Ranges
 such as Mon-Thu, Monday - Friday, M-TH, Mon thru Fri, and Mon-Wed, Fri are read
 forward and may wrap past Sunday (Fri-Mon). Empty Days assumes
 weekdays and reports weekdays_assumed. Unsupported directions, missing times,

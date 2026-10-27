@@ -150,3 +150,17 @@ def test_service_day_ranges(value,days):
 @pytest.mark.parametrize('value',['Mon-','Mon-Xyz','1-5','Mon-Wed-Fri'])
 def test_invalid_service_day_ranges(value):
     assert service_days(value)==(frozenset(),'unsupported_service_days')
+
+
+@pytest.mark.parametrize('value,days',[
+    ('MTHF',{0,1,3,4}),('MTH',{0,1,3}),('MTWHF',{0,1,2,3,4}),('MTWTHF',{0,1,2,3,4}),
+    ('MWTHF',{0,2,3,4}),('TTH',{1,3}),('MHF',{0,3,4}),('TH',{3})])
+def test_single_letter_codes_use_h_for_thursday(value,days):
+    assert service_days(value)==(frozenset(days),'available')
+
+
+def test_mthf_morning_pickup_is_next_tuesday():
+    # Monday 9:08 PM in Detroit; MTHF includes Tuesday.
+    now=datetime(2026,10,27,1,8,tzinfo=timezone.utc)
+    p=plan({'Routes':[{'Direction':'I','BusStopTime':'07:16:00','Days':'MTHF'}]},now,'America/New_York')
+    assert p.next_morning.isoformat()=='2026-10-27T07:16:00-04:00'
