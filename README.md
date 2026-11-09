@@ -3,7 +3,7 @@
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 [![Validate](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml/badge.svg)](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml)
 
-Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.4.5.
+Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.5.0.
 Connects to a school district's Versatrans My Stop API to provide student devices,
 assigned-bus locations, scheduled stop timestamps, and polling controls. Only Lake
 Orion has been account-tested. Offline tests use synthetic records and minimal HA
@@ -41,6 +41,17 @@ Upgrades preserve configured accounts, student devices, and entity IDs. There
 is no need to remove and re-add the integration. Press **Resume scheduled
 polling** if you want automatic windows after previously using Start or Stop.
 No configuration.yaml changes or MQTT broker are required.
+
+## Devices
+
+Each configured account creates one **school** device, named after the district.
+It holds the account-wide polling controls (see Account controls below). Every
+student is a child device of the school, so the school's device page lists the
+students under **Connected devices**, and each student's page links back to it.
+
+Upgrading from 0.4.x renames the former "polling controls" device to the
+district name in place; its entities and all entity IDs are unchanged. A
+device name you set yourself is kept.
 
 ## Student devices and map
 
@@ -157,7 +168,7 @@ credentials or failed session renewal trigger HA reauthentication.
 
 ## Account controls
 
-The district polling controls device has two editable Number entities under
+The school device has two editable Number entities under
 Configuration, applied to all students:
 
 - **Polling minutes before stop:** default 15.

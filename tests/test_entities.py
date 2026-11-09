@@ -7,6 +7,12 @@ from types import SimpleNamespace
 import pytest
 from mystop_test.model import Student, Position
 
+class DeviceRegistry:
+    def __init__(self):self.devices=[]
+    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return kwargs
+REGISTRY=DeviceRegistry()
+
+
 @pytest.fixture
 def entities(monkeypatch):
     def module(name, **attrs):
@@ -29,7 +35,7 @@ def entities(monkeypatch):
     class BinarySensorEntity(Entity):pass
     for name in ('homeassistant','homeassistant.helpers','homeassistant.components'):
         module(name)
-    module('homeassistant.helpers.device_registry',DeviceInfo=dict)
+    module('homeassistant.helpers.device_registry',DeviceInfo=dict,async_get=lambda hass:REGISTRY)
     module('homeassistant.const',EntityCategory=SimpleNamespace(CONFIG='config',DIAGNOSTIC='diagnostic'))
     module('homeassistant.helpers.update_coordinator',CoordinatorEntity=CoordinatorEntity)
     module('homeassistant.core',callback=lambda f:f)
@@ -243,3 +249,12 @@ def test_status_sensors_are_enums_with_plain_language_text(entities):
     assert polling.native_value=='request_failed'
     c.data['1'].polling_status='future_value'
     assert polling.native_value=='unknown'
+
+
+def test_students_are_child_devices_of_the_school(entities):
+    _,tracker,sensor,binary=entities;c=coordinator()
+    for entity in (tracker.BusTracker(c,'1'),sensor.BusSensor(c,'1','vehicle'),binary.BusBinary(c,'1','active')):
+        info=entity.device_info
+        assert info['via_device']==('versatrans_mystop','entry-test_account')
+        assert info['identifiers']=={('versatrans_mystop','entry-test_1')}
+        assert info['model']=='Student'

@@ -9,6 +9,12 @@ import pytest
 from test_protocol import FakeClient
 
 
+class DeviceRegistry:
+    def __init__(self):self.devices=[]
+    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return kwargs
+REGISTRY=DeviceRegistry()
+
+
 @pytest.fixture
 def controls(monkeypatch):
     def module(name, **attrs):
@@ -43,7 +49,7 @@ def controls(monkeypatch):
     module('homeassistant.helpers.aiohttp_client',async_get_clientsession=lambda hass:None)
     module('homeassistant.helpers.update_coordinator',DataUpdateCoordinator=Coordinator,
         UpdateFailed=Error,CoordinatorEntity=CoordinatorEntity)
-    module('homeassistant.helpers.device_registry',DeviceInfo=dict)
+    module('homeassistant.helpers.device_registry',DeviceInfo=dict,async_get=lambda hass:REGISTRY)
     module('homeassistant.helpers.storage',Store=Store)
     module('homeassistant.components.number',NumberEntity=type('NumberEntity',(Entity,),{}),
         NumberMode=SimpleNamespace(BOX='box'))
@@ -134,6 +140,9 @@ def test_cached_setup_keeps_live_entities_failed_and_retries(controls,monkeypatc
     # A failed vehicle request is not retried while constructing offline data.
     assert sum(not login for _,_,login in offline.calls)==(1 if login_works else 0)
     assert 'button' in forwarded and 'number' in forwarded
+    school=REGISTRY.devices[-1]
+    assert school['config_entry_id']==entry.entry_id and school['name']=='Synthetic'
+    assert school['identifiers']=={('versatrans_mystop','test_account')}
     asyncio.run(runtime.async_remove_entry(hass,entry))
     assert hass.cache_removed
 
@@ -167,3 +176,11 @@ def test_manual_mode_from_older_version_gets_a_timer(controls):
     asyncio.run(c.async_request_refresh())
     assert c.entry.options['polling_mode']=='manual'
     assert c.entry.options['manual_until']==(NOW+timedelta(hours=3)).isoformat()
+
+
+def test_controls_live_on_the_school_device(controls):
+    _,(_,number,button),c,_,_=controls
+    for entity in (button.PollingButton(c,'manual'),number.PollingWindowNumber(c,'poll_before')):
+        info=entity.device_info
+        assert info['identifiers']=={('versatrans_mystop','test_account')}
+        assert info['name']=='Synthetic' and info['model']=='School'

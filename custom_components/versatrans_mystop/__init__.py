@@ -10,6 +10,7 @@ from .const import DOMAIN, DEFAULT_INTERVAL, DEFAULT_STALE, MANUAL_POLLING_HOURS
 from .tls import create_client
 from .cleanup import remove_retired_entities
 from .cache import account_snapshot
+from .entity import register_school_device
 
 PLATFORMS = [Platform.DEVICE_TRACKER, Platform.SENSOR, Platform.BINARY_SENSOR, Platform.NUMBER, Platform.BUTTON]
 LOGGER = logging.getLogger(__name__)
@@ -115,6 +116,7 @@ async def async_setup_entry(hass, entry):
         LOGGER.info("Integration is using cached schedules while the district API is unavailable")
     entry.runtime_data = coordinator
     remove_retired_entities(hass, entry)
+    register_school_device(hass, entry)
     await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
     entry.async_on_unload(entry.add_update_listener(async_reload))
     return True

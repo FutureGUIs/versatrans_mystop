@@ -1,7 +1,6 @@
 """Local account controls remain available during API outages."""
-from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
-from .const import DOMAIN, NAME
+from .entity import school_device_info
 
 
 class AccountControl(CoordinatorEntity):
@@ -25,7 +24,4 @@ class AccountControl(CoordinatorEntity):
 
     @property
     def device_info(self):
-        entry = self.coordinator.entry
-        return DeviceInfo(identifiers={(DOMAIN, f"{entry.entry_id}_account")},
-            name=f"{entry.data.get('district_name', NAME)} polling controls",
-            model="District account")
+        return school_device_info(self.coordinator.entry)
