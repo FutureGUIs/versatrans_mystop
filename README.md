@@ -3,7 +3,7 @@
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 [![Validate](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml/badge.svg)](https://github.com/FutureGUIs/versatrans_mystop/actions/workflows/validate.yml)
 
-Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.5.0.
+Unofficial custom integration for Home Assistant 2026.9 or newer. Version 0.5.1.
 Connects to a school district's Versatrans My Stop API to provide student devices,
 assigned-bus locations, scheduled stop timestamps, and polling controls. Only Lake
 Orion has been account-tested. Offline tests use synthetic records and minimal HA

@@ -11,7 +11,7 @@ from test_protocol import FakeClient
 
 class DeviceRegistry:
     def __init__(self):self.devices=[]
-    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return kwargs
+    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return SimpleNamespace(id=f'device-{len(self.devices)}',**kwargs)
 REGISTRY=DeviceRegistry()
 
 
@@ -143,6 +143,8 @@ def test_cached_setup_keeps_live_entities_failed_and_retries(controls,monkeypatc
     school=REGISTRY.devices[-1]
     assert school['config_entry_id']==entry.entry_id and school['name']=='Synthetic'
     assert school['identifiers']=={('versatrans_mystop','test_account')}
+    # Student devices link to the school by registry id, not by identifier.
+    assert entry.runtime_data.school_device_id==f'device-{len(REGISTRY.devices)}'
     asyncio.run(runtime.async_remove_entry(hass,entry))
     assert hass.cache_removed
 

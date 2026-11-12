@@ -1,7 +1,7 @@
 """Shared device identities and dynamic student discovery.
 
 Each config entry has one school device holding the polling controls. Every
-student is a child device linked to it with via_device.
+student is a child device linked to it with via_device_id.
 """
 from homeassistant.helpers import device_registry as dr
 from homeassistant.helpers.device_registry import DeviceInfo
@@ -24,8 +24,9 @@ def school_device_info(entry):
 
 
 def register_school_device(hass, entry):
-    """Create the parent device before students reference it with via_device."""
-    dr.async_get(hass).async_get_or_create(config_entry_id=entry.entry_id, **school_device_info(entry))
+    """Create the parent device and remember its id for the student devices."""
+    device = dr.async_get(hass).async_get_or_create(config_entry_id=entry.entry_id, **school_device_info(entry))
+    entry.runtime_data.school_device_id = device.id
 
 
 class StudentEntity(CoordinatorEntity):
@@ -52,7 +53,7 @@ class StudentEntity(CoordinatorEntity):
         return DeviceInfo(identifiers={(DOMAIN, f"{entry.entry_id}_{self.student_id}")},
                           name=self.student.name if self.student else "Student",
                           manufacturer=MANUFACTURER, model="Student",
-                          via_device=school_identifier(entry))
+                          via_device_id=self.coordinator.school_device_id)
 
 
 def setup_students(entry, async_add_entities, factory):

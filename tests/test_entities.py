@@ -9,7 +9,7 @@ from mystop_test.model import Student, Position
 
 class DeviceRegistry:
     def __init__(self):self.devices=[]
-    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return kwargs
+    def async_get_or_create(self,**kwargs):self.devices.append(kwargs);return SimpleNamespace(id=f'device-{len(self.devices)}',**kwargs)
 REGISTRY=DeviceRegistry()
 
 
@@ -61,7 +61,7 @@ def coordinator():
           '3':Student('3','Synthetic Three',None,None,None,None,'no_assigned_vehicle')}
     listeners=[]
     entry=SimpleNamespace(entry_id='entry-test',options={},data={'timezone':'America/Detroit'},async_on_unload=lambda f:None)
-    c=SimpleNamespace(data=data,entry=entry,last_update_success=True)
+    c=SimpleNamespace(data=data,entry=entry,last_update_success=True,school_device_id='school-device')
     c.async_add_listener=lambda cb: listeners.append(cb) or (lambda:None)
     c.listeners=listeners
     entry.runtime_data=c
@@ -255,6 +255,7 @@ def test_students_are_child_devices_of_the_school(entities):
     _,tracker,sensor,binary=entities;c=coordinator()
     for entity in (tracker.BusTracker(c,'1'),sensor.BusSensor(c,'1','vehicle'),binary.BusBinary(c,'1','active')):
         info=entity.device_info
-        assert info['via_device']==('versatrans_mystop','entry-test_account')
+        assert info['via_device_id']=='school-device'
+        assert 'via_device' not in info
         assert info['identifiers']=={('versatrans_mystop','entry-test_1')}
         assert info['model']=='Student'
