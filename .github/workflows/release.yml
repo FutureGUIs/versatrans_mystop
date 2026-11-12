@@ -1,0 +1,50 @@
+name: Release
+
+# Publishes a GitHub release (and its tag) whenever the version in
+# manifest.json has no matching v<version> release yet. HACS installs
+# from these releases.
+on:
+  push:
+    branches: [main]
+    paths:
+      - custom_components/versatrans_mystop/manifest.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Read version from manifest
+        id: version
+        run: echo "version=$(jq -r .version custom_components/versatrans_mystop/manifest.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Create release if missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          tag="v${VERSION}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; nothing to do."
+            exit 0
+          fi
+          # Use this version's CHANGELOG.md section when there is one,
+          # otherwise let GitHub generate notes from the commits.
+          notes=""
+          if [ -f CHANGELOG.md ]; then
+            notes=$(awk -v heading="## ${VERSION}" '$0 == heading {found=1; next} /^## / {found=0} found' CHANGELOG.md | sed '/./,$!d')
+          fi
+          if [ -n "$notes" ]; then
+            gh release create "$tag" --target "$GITHUB_SHA" --title "$tag" --notes "$notes"
+          else
+            gh release create "$tag" --target "$GITHUB_SHA" --title "$tag" --generate-notes
+          fi
